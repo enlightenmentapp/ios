@@ -7,7 +7,7 @@
 //
 
 #import "ENTableViewController.h"
-#import "ENModel.h"
+#import "ENAppContentModel.h"
 #import "ENDocument.h"
 #import "ENList.h"
 #import "ENBaseWebViewController.h"

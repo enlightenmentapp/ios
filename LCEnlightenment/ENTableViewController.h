@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ENModel.h"
+#import "ENAppContentModel.h"
 #import "ENList.h"
 #import "ENTableViewController.h"
 
@@ -21,7 +21,7 @@
 
 //- (id)initWithRowObjectType:(LCTableViewRowObjectType)rowObjectType;
 
-@property (strong, nonatomic) ENModel *model;
+@property (strong, nonatomic) ENAppContentModel *model;
 @property (strong, nonatomic) ENList *list;
 @property (strong, nonatomic) NSObject *parentSelected;  //parentSelected/whateverIsPassed
 

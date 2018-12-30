@@ -258,7 +258,7 @@
 		8CD1BF6B1B9F69690029DACB /* pune.html in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BE771B9F69680029DACB /* pune.html */; };
 		8CD1BF6E1B9F711A0029DACB /* ENBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF6D1B9F711A0029DACB /* ENBaseWebViewController.m */; };
 		8CD1BF831BA238730029DACB /* ENDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF821BA238730029DACB /* ENDocument.m */; };
-		8CD1BF861BA238BF0029DACB /* ENModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF851BA238BF0029DACB /* ENModel.m */; };
+		8CD1BF861BA238BF0029DACB /* ENAppContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF851BA238BF0029DACB /* ENAppContentModel.m */; };
 		8CD1BF9B1BA4BE2C0029DACB /* ENTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF9A1BA4BE2C0029DACB /* ENTableViewController.m */; };
 		8CD1BFD01BA788EC0029DACB /* ENList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BFCF1BA788EC0029DACB /* ENList.m */; };
 		8CD1BFD61BAB7ABA0029DACB /* ENTathagataGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BFD51BAB7ABA0029DACB /* ENTathagataGalleryViewController.m */; };
@@ -534,8 +534,8 @@
 		8CD1BF6D1B9F711A0029DACB /* ENBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ENBaseWebViewController.m; path = ../ENBaseWebViewController.m; sourceTree = "<group>"; };
 		8CD1BF811BA238730029DACB /* ENDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENDocument.h; sourceTree = "<group>"; };
 		8CD1BF821BA238730029DACB /* ENDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENDocument.m; sourceTree = "<group>"; };
-		8CD1BF841BA238BE0029DACB /* ENModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ENModel.h; path = ../ENModel.h; sourceTree = "<group>"; };
-		8CD1BF851BA238BF0029DACB /* ENModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ENModel.m; path = ../ENModel.m; sourceTree = "<group>"; };
+		8CD1BF841BA238BE0029DACB /* ENAppContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ENAppContentModel.h; path = ../ENAppContentModel.h; sourceTree = "<group>"; };
+		8CD1BF851BA238BF0029DACB /* ENAppContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ENAppContentModel.m; path = ../ENAppContentModel.m; sourceTree = "<group>"; };
 		8CD1BF991BA4BE2C0029DACB /* ENTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTableViewController.h; sourceTree = "<group>"; };
 		8CD1BF9A1BA4BE2C0029DACB /* ENTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTableViewController.m; sourceTree = "<group>"; };
 		8CD1BFCE1BA788EC0029DACB /* ENList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENList.h; sourceTree = "<group>"; };
@@ -592,8 +592,8 @@
 				8C7ECE591B9A4D7C000CF46C /* ENMainMenuViewController.m */,
 				8CD1BF991BA4BE2C0029DACB /* ENTableViewController.h */,
 				8CD1BF9A1BA4BE2C0029DACB /* ENTableViewController.m */,
-				8CD1BF841BA238BE0029DACB /* ENModel.h */,
-				8CD1BF851BA238BF0029DACB /* ENModel.m */,
+				8CD1BF841BA238BE0029DACB /* ENAppContentModel.h */,
+				8CD1BF851BA238BF0029DACB /* ENAppContentModel.m */,
 				8CD1BF811BA238730029DACB /* ENDocument.h */,
 				8CD1BF821BA238730029DACB /* ENDocument.m */,
 				8CD1BFCE1BA788EC0029DACB /* ENList.h */,
@@ -1380,7 +1380,7 @@
 				8CD1BFD01BA788EC0029DACB /* ENList.m in Sources */,
 				8CD1BF831BA238730029DACB /* ENDocument.m in Sources */,
 				8CD1BF6E1B9F711A0029DACB /* ENBaseWebViewController.m in Sources */,
-				8CD1BF861BA238BF0029DACB /* ENModel.m in Sources */,
+				8CD1BF861BA238BF0029DACB /* ENAppContentModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

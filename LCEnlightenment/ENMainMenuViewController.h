@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ENModel.h"
+#import "ENAppContentModel.h"
 
 @interface ENMainMenuViewController : UIViewController
 
@@ -16,5 +16,5 @@
 @property (strong, nonatomic) UIButton *tableOfContentsButton;
 @property (strong, nonatomic) UILabel *titleLabel;
 @property (strong, nonatomic) UIImageView *imageView;
-@property (strong, nonatomic) ENModel *model;
+@property (strong, nonatomic) ENAppContentModel *model;
 @end

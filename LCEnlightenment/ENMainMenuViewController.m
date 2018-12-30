@@ -8,7 +8,7 @@
 
 #import "ENMainMenuViewController.h"
 #import <QuartzCore/QuartzCore.h>
-#import "ENModel.h"
+#import "ENAppContentModel.h"
 #import "ENTableViewController.h"
 #import "ENBaseWebViewController.h"
 
@@ -33,12 +33,12 @@
     [self createBackgroundImageView];
     [self createButtons];
     [self layoutViews];
-    [self setupENModel];
+    [self setupENAppContentModel];
 }
 
--(void)setupENModel
+-(void)setupENAppContentModel
 {
-    ENModel *model = [[ENModel alloc] init];
+    ENAppContentModel *model = [[ENAppContentModel alloc] init];
     self.model = model;
 }
 

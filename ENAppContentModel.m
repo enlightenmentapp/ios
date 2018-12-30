@@ -1,14 +1,14 @@
 //
-//  ENModel.m
+//  ENAppContentModel.m
 //  LCEnlightenment
 //
 //  Created by Liana Chu on 9/10/15.
 //  Copyright (c) 2015 Liana Chu. All rights reserved.
 //
 
-#import "ENModel.h"
+#import "ENAppContentModel.h"
 
-@implementation ENModel
+@implementation ENAppContentModel
 
 -(id)init
 {

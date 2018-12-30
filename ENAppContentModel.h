@@ -1,5 +1,5 @@
 //
-//  ENModel.h
+//  ENAppContentModel.h
 //  LCEnlightenment
 //
 //  Created by Liana Chu on 9/10/15.
@@ -10,7 +10,7 @@
 #import "ENList.h"
 #import "ENDocument.h"
 
-@interface ENModel : NSObject
+@interface ENAppContentModel : NSObject
 
 @property (strong, nonatomic) ENList *tableOfContentsENList;
 
