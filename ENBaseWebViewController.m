@@ -24,7 +24,9 @@
 
 -(void)setupWebViewWithHTMLFileNamed:(NSString *)fileName andTitle:(NSString *)title
 {
-    
+	//
+	// TODO: rebuild this to use WKWebView (although, how much does that limit our legacy iOS support? it may not be a good idea)
+	//
     UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
     webView.backgroundColor = [UIColor whiteColor];
     webView.delegate = self;

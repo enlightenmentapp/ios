@@ -167,7 +167,7 @@
     
     [self addENDocumentWithTitle:@"Q15 - From Karen"
                    description:@"8/20/2006"
-                      filename:@"karen"
+                      filename:@"karen_lonsdale"
                      sourceURL:@"http://www.members.tripod.com/tathagata2000/karen.htm"
                         parent:questionsOneToTwentyArray
                          index:14];
@@ -1241,7 +1241,7 @@
                                                          section:@"traveler"
                                                            index:0];
     
-    travelerENList.array = [travelerArray copy];
+	travelerENList.array = [travelerArray copy]; // TODO: is this copy needed?
     
     ENList *publicationsENList = [self addENListENListWithTitle:@"Publications"
                                                                               description:@""
@@ -1591,21 +1591,8 @@
     ENList *linksENList = [self addENDocumentENListWithTitle:@"Links" description:@"" section:@"links" index:8];
     linksENList.array = [linksArray copy];
     [tableOfContentsArray addObject:linksENList];
-    
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+	//
     tableOfContentsArray = [tableOfContentsArray copy];
     ENList *tableOfContentsENList = [[ENList alloc] init];
     tableOfContentsENList.title = @"Contents";
@@ -1613,10 +1600,8 @@
     self.tableOfContentsENList = tableOfContentsENList;
 }
 
-
-
-
--(void) addENDocumentWithTitle:(NSString *)title description:(id)description filename:(id)filename sourceURL:(id)sourceURL parent:(id)parent index:(int)index     {
+-(void) addENDocumentWithTitle:(NSString *)title description:(id)description filename:(id)filename sourceURL:(id)sourceURL parent:(id)parent index:(int)index
+{
     
     ENDocument *document = [[ENDocument alloc] init];
     document.title = title;
@@ -1625,45 +1610,111 @@
     document.index = [NSNumber numberWithInt:index];
     document.parent = parent;
     document.sourceURL = sourceURL;
-    
     if (parent) {
         [parent addObject:document];
     }
 }
 
--(void) addENDocumentWithTitle:(NSString *)title description:(id)description filename:(id)filename parent:(id)parent index:(int)index; {
-    
+-(void) addENDocumentWithTitle:(NSString *)title description:(id)description filename:(id)filename parent:(id)parent index:(int)index
+{
     [self addENDocumentWithTitle:title description:description filename:filename sourceURL:nil parent:parent index:index];
 }
 
 -(ENList *) addENDocumentENListWithTitle:(id)title
                                 description:(id)description
                                     section:(id)section
-                                      index:(int)index {
-    
+                                      index:(int)index
+{
     ENList *list = [[ENList alloc] init];
-    
     list.title = title;
     list.detailText = description;
     list.index = [NSNumber numberWithInt:index];
     list.section = section;
-    
+    //
     return list;
 }
 
 -(ENList *) addENListENListWithTitle:(id)title
                         description:(id)description
                             section:(id)section
-                              index:(int)index {
+                              index:(int)index
+{
     ENList *list = [[ENList alloc] init];
-    
     list.title = title;
     list.detailText = description;
     list.index = [NSNumber numberWithInt:index];
     list.section = section;
-    
+	//
     return list;
-
 }
-
+//
+// Accessors - Searches
+	
+- (NSArray *)documentsMatchingString:(NSString *)searchString
+{
+	// Note: removing html from search string so it doesn't match all documents
+	// Note: from a code clarity perspective, the sanitization (e.g. HTML removal) would be happening in +doesContentString:matchNoHTMLString: and it would be called …matchString: instead, but doing it here does the stripping work once whereas doing it there does the work on each string search
+	
+	return [[self class] _documentsMatchingSanitizedString: [[self class] sanitizedSearchStringFrom:searchString] searchingRecursivelyInList:self.tableOfContentsENList];
+}
++ (NSString *)sanitizedSearchStringFrom:(NSString *)searchString
+{
+	NSRange r;
+	NSString *s = [searchString copy];
+	while ((r = [s rangeOfString:@"<[^>]+>" options:NSRegularExpressionSearch]).location != NSNotFound)
+		s = [s stringByReplacingCharactersInRange:r withString:@""];
+	//
+	return s;
+}
++ (NSArray *)_documentsMatchingSanitizedString:(NSString *)searchString searchingRecursivelyInList:(ENList *)list
+{
+	NSMutableArray *results = [NSMutableArray new];
+	for (id el in list.array) {
+		if ([el isKindOfClass:[ENList class]]) {
+			NSArray *tocListMatches = [self _documentsMatchingSanitizedString:searchString searchingRecursivelyInList:(ENList *)el];
+			[results addObjectsFromArray:tocListMatches];
+		} else if ([el isKindOfClass:[ENDocument class]]) {
+			if ([self doesDocument:(ENDocument *)el matchSanitizedString:searchString]) {
+				[results addObject:el];
+			}
+		} else {
+			NSAssert(false, @"Unexpected element type");
+		}
+	}
+	return results;
+}
++ (BOOL)doesDocument:(ENDocument *)document matchSanitizedString:(NSString *)searchString
+{
+	if (document.title && document.title.length > 0 && [self doesContentString:document.title matchSanitizedString:searchString]) {
+		return YES;
+	} else if (document.detailText && document.detailText.length > 0 && [self doesContentString:document.detailText matchSanitizedString:searchString]) {
+		return YES;
+	} else if (document.filename && document.filename.length > 0) {
+		if ([document.filename rangeOfString:@"http"].location != NSNotFound) { // then we don't need to open the file to search it
+			// Note: not http: b/c that would exclude https:, and we might as well search 'http' instead of both 'http:' and 'https:' because 'http' is obscure/specific enough to URLs for it to probably not matter
+			if ([self doesContentString:document.filename matchSanitizedString:searchString]) {
+				return YES;
+			}
+		} else { // then it must be an HTML file (at present)
+			NSString *filePath = [[NSBundle mainBundle] pathForResource:document.filename ofType:@"html"];
+			NSError *error = NULL;
+			NSString *fileContentString = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error];
+			if (error != NULL) {
+				NSLog(@"Search: File open error; filename: %@; path: %@: %@", document.filename, filePath, error);
+			}
+			NSAssert(error == NULL, @"Not expecting a file open error here as all files should exist");
+			if ([self doesContentString:fileContentString matchSanitizedString:searchString]) {
+				return YES;
+			}
+		}
+	}
+	return NO;
+}
++ (BOOL)doesContentString:(NSString *)contentString matchSanitizedString:(NSString *)searchString
+{
+	return [contentString rangeOfString:searchString
+								options:NSRegularExpressionSearch|NSCaseInsensitiveSearch
+			].location != NSNotFound;
+}
+	
 @end

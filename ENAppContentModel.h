@@ -28,6 +28,7 @@
                       parent:(id)parent
                        index:(int)index;
 
-
+// Searching content
+- (NSArray *)documentsMatchingString:(NSString *)searchString;
 
 @end

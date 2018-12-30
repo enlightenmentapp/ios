@@ -40,6 +40,9 @@
 {
     ENAppContentModel *model = [[ENAppContentModel alloc] init];
     self.model = model;
+	//
+	// example usage: TODO: delete this when search feature added
+//	NSLog(@"any docs matching... %@", [model documentsMatchingString:@"enlightenment"]);
 }
 
 -(void)createTitleLabel
