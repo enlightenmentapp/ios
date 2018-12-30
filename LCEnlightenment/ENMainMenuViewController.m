@@ -10,7 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "ENModel.h"
 #import "ENTableViewController.h"
-#import "ENEnlightenmentViewController.h"
+#import "ENBaseWebViewController.h"
 
 @interface ENMainMenuViewController ()
 
@@ -167,17 +167,17 @@
 
 -(void)introductionButtonPressed
 {
-    ENEnlightenmentViewController *enlightenmentViewController = [[ENEnlightenmentViewController alloc] init];
-    [enlightenmentViewController setupWebViewWithHTMLFileNamed:@"introduction" andTitle:@"Introduction"];
-    [self.navigationController pushViewController:enlightenmentViewController animated:YES];
+    ENBaseWebViewController *controller = [[ENBaseWebViewController alloc] init];
+    [controller setupWebViewWithHTMLFileNamed:@"introduction" andTitle:@"Introduction"];
+    [self.navigationController pushViewController:controller animated:YES];
     
 }
 
 -(void)messageFromTathagataButtonPressed
 {
-    ENEnlightenmentViewController *enlightenmentViewController = [[ENEnlightenmentViewController alloc] init];
-    [enlightenmentViewController setupWebViewWithHTMLFileNamed:@"message" andTitle:@"Message From Tathagata"];
-    [self.navigationController pushViewController:enlightenmentViewController animated:YES];
+    ENBaseWebViewController *controller = [[ENBaseWebViewController alloc] init];
+    [controller setupWebViewWithHTMLFileNamed:@"message" andTitle:@"Message From Tathagata"];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 -(void)tableOfContentsButtonPressed

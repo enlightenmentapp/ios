@@ -1,5 +1,5 @@
 //
-//  ENEnlightenmentViewController.h
+//  ENBaseWebViewController.h
 //  LCEnlightenment
 //
 //  Created by Liana Chu on 9/8/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ENEnlightenmentViewController : UIViewController <UIWebViewDelegate>
+@interface ENBaseWebViewController : UIViewController <UIWebViewDelegate>
 
 @property (nonatomic, strong) UIWebView *webView;
 

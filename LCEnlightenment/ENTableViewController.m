@@ -10,7 +10,7 @@
 #import "ENModel.h"
 #import "ENDocument.h"
 #import "ENList.h"
-#import "ENEnlightenmentViewController.h"
+#import "ENBaseWebViewController.h"
 #import "ENTathagataGalleryViewController.h"
 
 
@@ -108,11 +108,11 @@
     else if ([[self.list.array objectAtIndex:indexPath.row] isKindOfClass:[ENDocument class]]) {
     //Transition to web view
         ENDocument *document = [self.list.array objectAtIndex:indexPath.row];
-        ENEnlightenmentViewController *enlightenmentViewController = [[ENEnlightenmentViewController alloc] init];
+        ENBaseWebViewController *controller = [[ENBaseWebViewController alloc] init];
         if (document.filename)  {
             if ([document.filename rangeOfString:@"http"].location == NSNotFound) {
-                [enlightenmentViewController setupWebViewWithHTMLFileNamed:document.filename andTitle:document.title];
-                [self.navigationController pushViewController:enlightenmentViewController animated:YES];
+                [controller setupWebViewWithHTMLFileNamed:document.filename andTitle:document.title];
+                [self.navigationController pushViewController:controller animated:YES];
             } else {
                 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:document.filename]];
                 [tableView deselectRowAtIndexPath:indexPath animated:YES];

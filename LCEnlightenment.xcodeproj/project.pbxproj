@@ -256,7 +256,7 @@
 		8CD1BF691B9F69690029DACB /* leicester_square.html in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BE751B9F69680029DACB /* leicester_square.html */; };
 		8CD1BF6A1B9F69690029DACB /* nairobi.html in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BE761B9F69680029DACB /* nairobi.html */; };
 		8CD1BF6B1B9F69690029DACB /* pune.html in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BE771B9F69680029DACB /* pune.html */; };
-		8CD1BF6E1B9F711A0029DACB /* ENEnlightenmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF6D1B9F711A0029DACB /* ENEnlightenmentViewController.m */; };
+		8CD1BF6E1B9F711A0029DACB /* ENBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF6D1B9F711A0029DACB /* ENBaseWebViewController.m */; };
 		8CD1BF831BA238730029DACB /* ENDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF821BA238730029DACB /* ENDocument.m */; };
 		8CD1BF861BA238BF0029DACB /* ENModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF851BA238BF0029DACB /* ENModel.m */; };
 		8CD1BF9B1BA4BE2C0029DACB /* ENTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF9A1BA4BE2C0029DACB /* ENTableViewController.m */; };
@@ -530,8 +530,8 @@
 		8CD1BE751B9F69680029DACB /* leicester_square.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = leicester_square.html; sourceTree = "<group>"; };
 		8CD1BE761B9F69680029DACB /* nairobi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = nairobi.html; sourceTree = "<group>"; };
 		8CD1BE771B9F69680029DACB /* pune.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pune.html; sourceTree = "<group>"; };
-		8CD1BF6C1B9F711A0029DACB /* ENEnlightenmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ENEnlightenmentViewController.h; path = ../ENEnlightenmentViewController.h; sourceTree = "<group>"; };
-		8CD1BF6D1B9F711A0029DACB /* ENEnlightenmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ENEnlightenmentViewController.m; path = ../ENEnlightenmentViewController.m; sourceTree = "<group>"; };
+		8CD1BF6C1B9F711A0029DACB /* ENBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ENBaseWebViewController.h; path = ../ENBaseWebViewController.h; sourceTree = "<group>"; };
+		8CD1BF6D1B9F711A0029DACB /* ENBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ENBaseWebViewController.m; path = ../ENBaseWebViewController.m; sourceTree = "<group>"; };
 		8CD1BF811BA238730029DACB /* ENDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENDocument.h; sourceTree = "<group>"; };
 		8CD1BF821BA238730029DACB /* ENDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENDocument.m; sourceTree = "<group>"; };
 		8CD1BF841BA238BE0029DACB /* ENModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ENModel.h; path = ../ENModel.h; sourceTree = "<group>"; };
@@ -584,8 +584,8 @@
 		8C7ECE311B9A418E000CF46C /* LCEnlightenment */ = {
 			isa = PBXGroup;
 			children = (
-				8CD1BF6C1B9F711A0029DACB /* ENEnlightenmentViewController.h */,
-				8CD1BF6D1B9F711A0029DACB /* ENEnlightenmentViewController.m */,
+				8CD1BF6C1B9F711A0029DACB /* ENBaseWebViewController.h */,
+				8CD1BF6D1B9F711A0029DACB /* ENBaseWebViewController.m */,
 				8C7ECE361B9A418E000CF46C /* ENAppDelegate.h */,
 				8C7ECE371B9A418E000CF46C /* ENAppDelegate.m */,
 				8C7ECE581B9A4D7C000CF46C /* ENMainMenuViewController.h */,
@@ -1379,7 +1379,7 @@
 				8C7ECE351B9A418E000CF46C /* main.m in Sources */,
 				8CD1BFD01BA788EC0029DACB /* ENList.m in Sources */,
 				8CD1BF831BA238730029DACB /* ENDocument.m in Sources */,
-				8CD1BF6E1B9F711A0029DACB /* ENEnlightenmentViewController.m in Sources */,
+				8CD1BF6E1B9F711A0029DACB /* ENBaseWebViewController.m in Sources */,
 				8CD1BF861BA238BF0029DACB /* ENModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
