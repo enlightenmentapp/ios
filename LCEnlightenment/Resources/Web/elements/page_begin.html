@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0;'>
+		<style type="text/css">
+
+			* {
+				font-family: Verdana, sans-serif;
+			}
+			html {
+				-webkit-text-size-adjust: none; /* Never autoresize text */
+			}		
+			body { background-color: #efefef; padding-bottom: 20px; }
+            h2 { color: #000000; font-size: 19px; }
+            h3 { color: #0000FF; font-size: 16px; }
+			ul { margin: 0; padding: 0; list-style-type: circle; }
+			li { margin-left: 24px; }
+			a { font-size: 13px; }
+			p {
+				font-size: 13px;
+			}
+			.blue { color: #006ea6; }
+			.underline { text-decoration: underline; }
+			em { font-style: italic; }
+			img {  
+				max-width:9500px;
+				max-height:9500px;
+				height:auto;
+			}
+			#bookmark { 
+				right: -45px;  
+				position: fixed; 
+
+				-webkit-transition: top 500ms ease-in-out;
+				background-image: url(bookmark.png);
+				height: 26px;
+				width: 80px;
+			} 
+			@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+				#bookmark {
+					background-image: url(bookmark@2x.png);
+					-webkit-background-size: 88px 26px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div  style="top:-50px;" id="bookmark" >&nbsp;</div>
