@@ -262,6 +262,8 @@
 		8CD1BFD61BAB7ABA0029DACB /* ENTathagataGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BFD51BAB7ABA0029DACB /* ENTathagataGalleryViewController.m */; };
 		9F2516EC21D9BCF90045205E /* ENBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516E821D9BCF90045205E /* ENBaseWebViewController.m */; };
 		9F2516ED21D9BCF90045205E /* ENAppContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516EA21D9BCF90045205E /* ENAppContentModel.m */; };
+		9F2516F621D9C44E0045205E /* ENContentSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516F521D9C44E0045205E /* ENContentSearchTableViewController.swift */; };
+		9F2516FD21D9CC370045205E /* ENNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516FC21D9CC370045205E /* ENNavigation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -542,6 +544,10 @@
 		9F2516E921D9BCF90045205E /* ENAppContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAppContentModel.h; sourceTree = "<group>"; };
 		9F2516EA21D9BCF90045205E /* ENAppContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENAppContentModel.m; sourceTree = "<group>"; };
 		9F2516EB21D9BCF90045205E /* ENBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENBaseWebViewController.h; sourceTree = "<group>"; };
+		9F2516F121D9C2DA0045205E /* Enlightenment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enlightenment-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F2516F521D9C44E0045205E /* ENContentSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENContentSearchTableViewController.swift; sourceTree = "<group>"; };
+		9F2516FB21D9CC370045205E /* ENNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENNavigation.h; sourceTree = "<group>"; };
+		9F2516FC21D9CC370045205E /* ENNavigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENNavigation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -586,6 +592,7 @@
 			children = (
 				8C7ECE361B9A418E000CF46C /* ENAppDelegate.h */,
 				8C7ECE371B9A418E000CF46C /* ENAppDelegate.m */,
+				9F2516F121D9C2DA0045205E /* Enlightenment-Bridging-Header.h */,
 				9F2516E921D9BCF90045205E /* ENAppContentModel.h */,
 				9F2516EA21D9BCF90045205E /* ENAppContentModel.m */,
 				8CD1BF811BA238730029DACB /* ENDocument.h */,
@@ -600,6 +607,9 @@
 				9F2516E821D9BCF90045205E /* ENBaseWebViewController.m */,
 				8CD1BFD41BAB7ABA0029DACB /* ENTathagataGalleryViewController.h */,
 				8CD1BFD51BAB7ABA0029DACB /* ENTathagataGalleryViewController.m */,
+				9F2516F521D9C44E0045205E /* ENContentSearchTableViewController.swift */,
+				9F2516FB21D9CC370045205E /* ENNavigation.h */,
+				9F2516FC21D9CC370045205E /* ENNavigation.m */,
 				8C7ECE3F1B9A418E000CF46C /* Images.xcassets */,
 				8C7ECE321B9A418E000CF46C /* Supporting Files */,
 			);
@@ -1078,6 +1088,7 @@
 					8C7ECE2E1B9A418E000CF46C = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = KKKKJ8SSH9;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					8C7ECE471B9A418E000CF46C = {
@@ -1372,6 +1383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2516FD21D9CC370045205E /* ENNavigation.m in Sources */,
+				9F2516F621D9C44E0045205E /* ENContentSearchTableViewController.swift in Sources */,
 				8CD1BFD61BAB7ABA0029DACB /* ENTathagataGalleryViewController.m in Sources */,
 				8C7ECE381B9A418E000CF46C /* ENAppDelegate.m in Sources */,
 				8C7ECE5A1B9A4D7C000CF46C /* ENMainMenuViewController.m in Sources */,
@@ -1507,9 +1520,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Shapiro (UM27D3376E)";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KKKKJ8SSH9;
 				INFOPLIST_FILE = LCEnlightenment/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1518,6 +1533,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LCEnlightenment/Enlightenment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1527,9 +1545,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Paul Shapiro (KKKKJ8SSH9)";
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KKKKJ8SSH9;
 				INFOPLIST_FILE = LCEnlightenment/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1538,6 +1558,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LCEnlightenment/Enlightenment-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1545,6 +1567,7 @@
 		8C7ECE561B9A418E000CF46C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -1565,6 +1588,7 @@
 		8C7ECE571B9A418E000CF46C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

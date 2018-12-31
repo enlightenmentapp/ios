@@ -14,7 +14,7 @@
 
 @property (strong, nonatomic) ENList *tableOfContentsENList;
 
--(void) addENDocumentWithTitle:(NSString *)title
+- (void)addENDocumentWithTitle:(NSString *)title
                  description:(id)description
                     filename:(id)filename
                    sourceURL:(id)sourceURL
@@ -22,13 +22,14 @@
                        index:(int)index;
 
 
--(void) addENDocumentWithTitle:(NSString *)title
+- (void)addENDocumentWithTitle:(NSString *)title
                  description:(id)description
                     filename:(id)filename
                       parent:(id)parent
                        index:(int)index;
 
 // Searching content
+- (NSArray *)documentsMatchingItems:(NSArray *)searchItems; // array of strings
 - (NSArray *)documentsMatchingString:(NSString *)searchString;
 
 @end

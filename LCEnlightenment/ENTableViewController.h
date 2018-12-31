@@ -3,7 +3,7 @@
 //  LCEnlightenment
 //
 //  Created by Liana Chu on 9/12/15.
-//  Copyright (c) 2015 Liana Chu. All rights reserved.
+//  Copyright (c) 2011-2019 Enlightenment of Tathagata. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -24,5 +24,5 @@
 @property (strong, nonatomic) ENAppContentModel *model;
 @property (strong, nonatomic) ENList *list;
 @property (strong, nonatomic) NSObject *parentSelected;  //parentSelected/whateverIsPassed
-
+	
 @end

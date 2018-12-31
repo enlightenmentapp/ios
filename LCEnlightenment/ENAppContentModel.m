@@ -19,7 +19,7 @@
     return self;
 }
 
--(void)setup
+- (void)setup
 {
     NSMutableArray *tableOfContentsArray = [[NSMutableArray alloc] init];
     
@@ -1596,11 +1596,12 @@
     tableOfContentsArray = [tableOfContentsArray copy];
     ENList *tableOfContentsENList = [[ENList alloc] init];
     tableOfContentsENList.title = @"Contents";
+	tableOfContentsENList.isTableOfContents = YES;
     tableOfContentsENList.array = tableOfContentsArray;
     self.tableOfContentsENList = tableOfContentsENList;
 }
 
--(void) addENDocumentWithTitle:(NSString *)title description:(id)description filename:(id)filename sourceURL:(id)sourceURL parent:(id)parent index:(int)index
+- (void)addENDocumentWithTitle:(NSString *)title description:(id)description filename:(id)filename sourceURL:(id)sourceURL parent:(id)parent index:(int)index
 {
     
     ENDocument *document = [[ENDocument alloc] init];
@@ -1615,7 +1616,7 @@
     }
 }
 
--(void) addENDocumentWithTitle:(NSString *)title description:(id)description filename:(id)filename parent:(id)parent index:(int)index
+- (void)addENDocumentWithTitle:(NSString *)title description:(id)description filename:(id)filename parent:(id)parent index:(int)index
 {
     [self addENDocumentWithTitle:title description:description filename:filename sourceURL:nil parent:parent index:index];
 }
@@ -1649,7 +1650,19 @@
 }
 //
 // Accessors - Searches
-	
+- (NSArray *)documentsMatchingItems:(NSArray *)searchItems
+{
+	NSMutableArray *results = [NSMutableArray new];
+	for (NSString *item in searchItems) {
+		NSArray *itemResults = [self documentsMatchingString:item];
+		for (ENDocument *itemResult in itemResults) {
+			if ([results containsObject:itemResults] == false) {
+				[results addObject:itemResult];
+			}
+		}
+	}
+	return results;
+}
 - (NSArray *)documentsMatchingString:(NSString *)searchString
 {
 	// Note: removing html from search string so it doesn't match all documents

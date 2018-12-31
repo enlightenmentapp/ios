@@ -3,7 +3,7 @@
 //  LCEnlightenment
 //
 //  Created by Liana Chu on 9/4/15.
-//  Copyright (c) 2015 Liana Chu. All rights reserved.
+//  Copyright (c) 2011-2019 Enlightenment of Tathagata. All rights reserved.
 //
 
 #import "ENMainMenuViewController.h"
@@ -27,7 +27,7 @@
     return self;
 }
 
--(void)setup
+- (void)setup
 {
     [self createTitleLabel];
     [self createBackgroundImageView];
@@ -36,16 +36,13 @@
     [self setupENAppContentModel];
 }
 
--(void)setupENAppContentModel
+- (void)setupENAppContentModel
 {
     ENAppContentModel *model = [[ENAppContentModel alloc] init];
     self.model = model;
-	//
-	// example usage: TODO: delete this when search feature added
-//	NSLog(@"any docs matching... %@", [model documentsMatchingString:@"enlightenment"]);
 }
 
--(void)createTitleLabel
+- (void)createTitleLabel
 {
     UILabel *titleLabel = [[UILabel alloc] init];
     titleLabel.text = @"Enlightenment";
@@ -63,7 +60,7 @@
     self.titleLabel = titleLabel;
 }
 
--(void)createBackgroundImageView
+- (void)createBackgroundImageView
 {
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"index_background.JPG"]];
 
@@ -78,7 +75,7 @@
     self.imageView = imageView;
 }
 
--(void)createButtons
+- (void)createButtons
 {
     UIButton *introductionButton = [UIButton buttonWithType:UIButtonTypeSystem];
     introductionButton.layer.cornerRadius = 5;
@@ -116,7 +113,7 @@
 //    tableOfContentsButton.layer.borderColor = [UIColor whiteColor].CGColor;//
 }
 
--(void)layoutViews
+- (void)layoutViews
 {
     self.introductionButton.translatesAutoresizingMaskIntoConstraints = NO;
     self.messageFromTathagataButton.translatesAutoresizingMaskIntoConstraints = NO;
@@ -168,7 +165,7 @@
     
 }
 
--(void)introductionButtonPressed
+- (void)introductionButtonPressed
 {
     ENBaseWebViewController *controller = [[ENBaseWebViewController alloc] init];
     [controller setupWebViewWithHTMLFileNamed:@"introduction" andTitle:@"Introduction"];
@@ -176,30 +173,28 @@
     
 }
 
--(void)messageFromTathagataButtonPressed
+- (void)messageFromTathagataButtonPressed
 {
     ENBaseWebViewController *controller = [[ENBaseWebViewController alloc] init];
     [controller setupWebViewWithHTMLFileNamed:@"message" andTitle:@"Message From Tathagata"];
     [self.navigationController pushViewController:controller animated:YES];
 }
 
--(void)tableOfContentsButtonPressed
+- (void)tableOfContentsButtonPressed
 {
     TableViewController *tableViewController = [[TableViewController alloc] init];
+	tableViewController.model = self.model; // must be set so that search results controller has it
     tableViewController.list = self.model.tableOfContentsENList;
     [self.navigationController pushViewController:tableViewController animated:YES];
 }
 
-
-
-
--(void) viewWillAppear:(BOOL)animated {
+- (void)viewWillAppear:(BOOL)animated
+{
     [super viewWillAppear:animated];
     
     self.navigationItem.leftBarButtonItem = nil;
     
     [self.navigationController setNavigationBarHidden:YES animated:animated];
-    
 }
 
 
@@ -214,7 +209,7 @@
     // Dispose of any resources that can be recreated.
 }
 
--(BOOL)prefersStatusBarHidden{
+- (BOOL)prefersStatusBarHidden{
     return YES;
 }
 

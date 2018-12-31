@@ -16,5 +16,7 @@
 @property (strong, nonatomic) NSNumber *index;
 @property (strong, nonatomic) NSString *detailText;
 
+@property (nonatomic) BOOL isTableOfContents;
+	
 
 @end

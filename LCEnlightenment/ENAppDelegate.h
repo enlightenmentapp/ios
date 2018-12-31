@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Enlightenment-Bridging-Header.h"
 
 @interface ENAppDelegate : UIResponder <UIApplicationDelegate>
 

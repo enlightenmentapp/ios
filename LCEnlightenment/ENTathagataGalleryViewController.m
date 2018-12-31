@@ -3,7 +3,7 @@
 //  LCEnlightenment
 //
 //  Created by Liana Chu on 9/17/15.
-//  Copyright (c) 2015 Liana Chu. All rights reserved.
+//  Copyright (c) 2011-2019 Enlightenment of Tathagata. All rights reserved.
 //
 
 #import "ENTathagataGalleryViewController.h"
@@ -89,13 +89,13 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;   //This somehow makes it so that the scrollview isn't underneath the nav bar.
 }
 
--(void) layoutImages {
+- (void)layoutImages {
     int i = 0;
     for (UIView *page in self.scroller.subviews ) {
         page.frame = [self frameForPageAtIndex:i++];
     }
 }
--(void) loadImages {    //Liana: puts photos into UIImageViews, which are then added as subviews to scrollView.
+- (void)loadImages {    //Liana: puts photos into UIImageViews, which are then added as subviews to scrollView.
     int i = 0 ;
     for ( id image in self.imagesArray ) {
 //        id caption = [self.captions objectAtIndex:i];
@@ -108,7 +108,7 @@
     }
     
 }
--(void) scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     CGFloat offset = self.scroller.contentOffset.x;  //Apple: The point at which the origin of the content view is offset from the origin of the scroll view.
     CGFloat pageWidth = self.scroller.bounds.size.width;
     
@@ -136,7 +136,7 @@
     return size;
 }
 
--(void) viewWillAppear:(BOOL)animated {
+- (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.scroller.frame = [self frameForPagingScrollView];
     self.scroller.contentSize = [self contentSizeForPagingScrollView];

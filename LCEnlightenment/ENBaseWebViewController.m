@@ -3,7 +3,7 @@
 //  LCEnlightenment
 //
 //  Created by Liana Chu on 9/8/15.
-//  Copyright (c) 2015 Liana Chu. All rights reserved.
+//  Copyright (c) 2011-2019 Enlightenment of Tathagata. All rights reserved.
 //
 
 #import "ENBaseWebViewController.h"
@@ -22,7 +22,7 @@
     return self;
 }
 
--(void)setupWebViewWithHTMLFileNamed:(NSString *)fileName andTitle:(NSString *)title
+- (void)setupWebViewWithHTMLFileNamed:(NSString *)fileName andTitle:(NSString *)title
 {
 	//
 	// TODO: rebuild this to use WKWebView (although, how much does that limit our legacy iOS support? it may not be a good idea)
@@ -59,7 +59,7 @@
 }
 
 
--(void) viewWillAppear:(BOOL)animated {
+- (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:NO animated:animated];
 }
