@@ -15,6 +15,8 @@ Tathagata is the man who attained perfect enlightenment and came to reveal the w
 
 The purpose of this application is to make his inspiring and free teachings available on-the-go.
 
+The app can be downloaded on the App Store at [https://itunes.apple.com/us/app/enlightenment/id431554133](https://itunes.apple.com/us/app/enlightenment/id431554133).
+
 ### Features of this app include:
 
 * Tathagata's message to mankind
