@@ -3,7 +3,7 @@
 //  Enlightenment
 //
 //  Created by Paul Shapiro on 12/30/18.
-//  Copyright © 2018 Liana Chu. All rights reserved.
+//  Copyright (c) 2011-2019 Enlightenment of Tathagata. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

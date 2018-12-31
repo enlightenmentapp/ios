@@ -1074,7 +1074,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Liana Chu";
+				ORGANIZATIONNAME = "Enlightenment of Tathagata";
 				TargetAttributes = {
 					8C7ECE2E1B9A418E000CF46C = {
 						CreatedOnToolsVersion = 6.2;
