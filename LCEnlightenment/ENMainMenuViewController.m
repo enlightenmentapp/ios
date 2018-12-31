@@ -75,31 +75,35 @@
     self.imageView = imageView;
 }
 
++ (UIButton *)newMenuButton
+{
+	UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+	button.layer.cornerRadius = 5;
+	button.layer.borderWidth = 1.0;
+	button.titleLabel.font = [UIFont boldSystemFontOfSize:18];
+	button.titleLabel.adjustsFontSizeToFitWidth = true;
+	button.titleLabel.minimumScaleFactor = 0.3;
+	button.layer.borderColor = [UIColor blueColor].CGColor;
+	//
+	return button;
+}
+	
 - (void)createButtons
 {
-    UIButton *introductionButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    introductionButton.layer.cornerRadius = 5;
-    introductionButton.layer.borderWidth = 1.0;
-    introductionButton.layer.borderColor = [UIColor blueColor].CGColor;
+    UIButton *introductionButton = [[self class] newMenuButton];
     [introductionButton setTitle:@"Introduction" forState:UIControlStateNormal];
     [introductionButton addTarget:self action:@selector(introductionButtonPressed) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:introductionButton];
     self.introductionButton = introductionButton;
     
-    UIButton *messageFromTathagataButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    messageFromTathagataButton.layer.cornerRadius = 5;
-    messageFromTathagataButton.layer.borderWidth = 1.0;
-    messageFromTathagataButton.layer.borderColor = [UIColor blueColor].CGColor;
+	UIButton *messageFromTathagataButton = [[self class] newMenuButton];
     [messageFromTathagataButton setTitle:@"A Message From Tathagata"
                                 forState:UIControlStateNormal];
     [messageFromTathagataButton addTarget:self action:@selector(messageFromTathagataButtonPressed) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:messageFromTathagataButton];
     self.messageFromTathagataButton = messageFromTathagataButton;
     
-    UIButton *tableOfContentsButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    tableOfContentsButton.layer.cornerRadius = 5;
-    tableOfContentsButton.layer.borderWidth = 1.0;
-    tableOfContentsButton.layer.borderColor = [UIColor blueColor].CGColor;
+	UIButton *tableOfContentsButton = [[self class] newMenuButton];
     [tableOfContentsButton setTitle:@"Table Of Contents" forState:UIControlStateNormal];
     [tableOfContentsButton addTarget:self action:@selector(tableOfContentsButtonPressed) forControlEvents: UIControlEventTouchUpInside];
     [self.view addSubview:tableOfContentsButton];
@@ -127,17 +131,17 @@
                               @"imageView" : self.imageView};
     
     //Buttons
-    NSArray *introButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-50-[introductionButton]-50-|" options:0 metrics:nil views:nameMap];
+    NSArray *introButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-40-[introductionButton]-40-|" options:0 metrics:nil views:nameMap];
     
-    NSArray *messageButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-50-[messageFromTathagataButton]-50-|" options:0 metrics:nil views:nameMap];
+    NSArray *messageButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-40-[messageFromTathagataButton]-40-|" options:0 metrics:nil views:nameMap];
     
-    NSArray *tableButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-50-[tableOfContentsButton]-50-|" options:0 metrics:nil views:nameMap];
+    NSArray *tableButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-40-[tableOfContentsButton]-40-|" options:0 metrics:nil views:nameMap];
     
     
     
-    NSArray *tableButtonVerticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:[tableOfContentsButton]-30-|" options:0 metrics:nil views:nameMap];
+    NSArray *tableButtonVerticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:[tableOfContentsButton]-50-|" options:0 metrics:nil views:nameMap];
     
-    NSArray *introButtonVerticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:[introductionButton(==40)]-20-[messageFromTathagataButton(==40)]-20-[tableOfContentsButton(==40)]" options:0 metrics:nil views:nameMap];
+    NSArray *introButtonVerticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:[introductionButton(==44)]-16-[messageFromTathagataButton(==44)]-16-[tableOfContentsButton(==44)]" options:0 metrics:nil views:nameMap];
     
     //"Enlightenment Title"
     NSArray *titleLabelHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[titleLabel]-20-|" options:0 metrics:nil views:nameMap];
