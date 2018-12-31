@@ -256,12 +256,12 @@
 		8CD1BF691B9F69690029DACB /* leicester_square.html in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BE751B9F69680029DACB /* leicester_square.html */; };
 		8CD1BF6A1B9F69690029DACB /* nairobi.html in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BE761B9F69680029DACB /* nairobi.html */; };
 		8CD1BF6B1B9F69690029DACB /* pune.html in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BE771B9F69680029DACB /* pune.html */; };
-		8CD1BF6E1B9F711A0029DACB /* ENBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF6D1B9F711A0029DACB /* ENBaseWebViewController.m */; };
 		8CD1BF831BA238730029DACB /* ENDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF821BA238730029DACB /* ENDocument.m */; };
-		8CD1BF861BA238BF0029DACB /* ENAppContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF851BA238BF0029DACB /* ENAppContentModel.m */; };
 		8CD1BF9B1BA4BE2C0029DACB /* ENTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF9A1BA4BE2C0029DACB /* ENTableViewController.m */; };
 		8CD1BFD01BA788EC0029DACB /* ENList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BFCF1BA788EC0029DACB /* ENList.m */; };
 		8CD1BFD61BAB7ABA0029DACB /* ENTathagataGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BFD51BAB7ABA0029DACB /* ENTathagataGalleryViewController.m */; };
+		9F2516EC21D9BCF90045205E /* ENBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516E821D9BCF90045205E /* ENBaseWebViewController.m */; };
+		9F2516ED21D9BCF90045205E /* ENAppContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516EA21D9BCF90045205E /* ENAppContentModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -530,18 +530,18 @@
 		8CD1BE751B9F69680029DACB /* leicester_square.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = leicester_square.html; sourceTree = "<group>"; };
 		8CD1BE761B9F69680029DACB /* nairobi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = nairobi.html; sourceTree = "<group>"; };
 		8CD1BE771B9F69680029DACB /* pune.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pune.html; sourceTree = "<group>"; };
-		8CD1BF6C1B9F711A0029DACB /* ENBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ENBaseWebViewController.h; path = ../ENBaseWebViewController.h; sourceTree = "<group>"; };
-		8CD1BF6D1B9F711A0029DACB /* ENBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ENBaseWebViewController.m; path = ../ENBaseWebViewController.m; sourceTree = "<group>"; };
 		8CD1BF811BA238730029DACB /* ENDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENDocument.h; sourceTree = "<group>"; };
 		8CD1BF821BA238730029DACB /* ENDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENDocument.m; sourceTree = "<group>"; };
-		8CD1BF841BA238BE0029DACB /* ENAppContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ENAppContentModel.h; path = ../ENAppContentModel.h; sourceTree = "<group>"; };
-		8CD1BF851BA238BF0029DACB /* ENAppContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ENAppContentModel.m; path = ../ENAppContentModel.m; sourceTree = "<group>"; };
 		8CD1BF991BA4BE2C0029DACB /* ENTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTableViewController.h; sourceTree = "<group>"; };
 		8CD1BF9A1BA4BE2C0029DACB /* ENTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTableViewController.m; sourceTree = "<group>"; };
 		8CD1BFCE1BA788EC0029DACB /* ENList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENList.h; sourceTree = "<group>"; };
 		8CD1BFCF1BA788EC0029DACB /* ENList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENList.m; sourceTree = "<group>"; };
 		8CD1BFD41BAB7ABA0029DACB /* ENTathagataGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTathagataGalleryViewController.h; sourceTree = "<group>"; };
 		8CD1BFD51BAB7ABA0029DACB /* ENTathagataGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTathagataGalleryViewController.m; sourceTree = "<group>"; };
+		9F2516E821D9BCF90045205E /* ENBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENBaseWebViewController.m; sourceTree = "<group>"; };
+		9F2516E921D9BCF90045205E /* ENAppContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAppContentModel.h; sourceTree = "<group>"; };
+		9F2516EA21D9BCF90045205E /* ENAppContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENAppContentModel.m; sourceTree = "<group>"; };
+		9F2516EB21D9BCF90045205E /* ENBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENBaseWebViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -586,8 +586,8 @@
 			children = (
 				8C7ECE361B9A418E000CF46C /* ENAppDelegate.h */,
 				8C7ECE371B9A418E000CF46C /* ENAppDelegate.m */,
-				8CD1BF841BA238BE0029DACB /* ENAppContentModel.h */,
-				8CD1BF851BA238BF0029DACB /* ENAppContentModel.m */,
+				9F2516E921D9BCF90045205E /* ENAppContentModel.h */,
+				9F2516EA21D9BCF90045205E /* ENAppContentModel.m */,
 				8CD1BF811BA238730029DACB /* ENDocument.h */,
 				8CD1BF821BA238730029DACB /* ENDocument.m */,
 				8CD1BFCE1BA788EC0029DACB /* ENList.h */,
@@ -596,8 +596,8 @@
 				8C7ECE591B9A4D7C000CF46C /* ENMainMenuViewController.m */,
 				8CD1BF991BA4BE2C0029DACB /* ENTableViewController.h */,
 				8CD1BF9A1BA4BE2C0029DACB /* ENTableViewController.m */,
-				8CD1BF6C1B9F711A0029DACB /* ENBaseWebViewController.h */,
-				8CD1BF6D1B9F711A0029DACB /* ENBaseWebViewController.m */,
+				9F2516EB21D9BCF90045205E /* ENBaseWebViewController.h */,
+				9F2516E821D9BCF90045205E /* ENBaseWebViewController.m */,
 				8CD1BFD41BAB7ABA0029DACB /* ENTathagataGalleryViewController.h */,
 				8CD1BFD51BAB7ABA0029DACB /* ENTathagataGalleryViewController.m */,
 				8C7ECE3F1B9A418E000CF46C /* Images.xcassets */,
@@ -1378,9 +1378,9 @@
 				8CD1BF9B1BA4BE2C0029DACB /* ENTableViewController.m in Sources */,
 				8C7ECE351B9A418E000CF46C /* main.m in Sources */,
 				8CD1BFD01BA788EC0029DACB /* ENList.m in Sources */,
+				9F2516ED21D9BCF90045205E /* ENAppContentModel.m in Sources */,
 				8CD1BF831BA238730029DACB /* ENDocument.m in Sources */,
-				8CD1BF6E1B9F711A0029DACB /* ENBaseWebViewController.m in Sources */,
-				8CD1BF861BA238BF0029DACB /* ENAppContentModel.m in Sources */,
+				9F2516EC21D9BCF90045205E /* ENBaseWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
