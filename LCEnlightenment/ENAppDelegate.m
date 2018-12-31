@@ -18,13 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-   
+	
     ENMainMenuViewController *mainMenuViewController = [[ENMainMenuViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainMenuViewController];
 
     self.window.rootViewController = navigationController;
  
 //    [self.window addSubview:navigationController.view];   ????
+	[UIApplication.sharedApplication setStatusBarStyle:UIStatusBarStyleLightContent];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

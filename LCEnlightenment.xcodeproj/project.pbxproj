@@ -12,10 +12,6 @@
 		8C7ECE401B9A418E000CF46C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7ECE3F1B9A418E000CF46C /* Images.xcassets */; };
 		8C7ECE4F1B9A418E000CF46C /* LCEnlightenmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7ECE4E1B9A418E000CF46C /* LCEnlightenmentTests.m */; };
 		8C7ECE5A1B9A4D7C000CF46C /* ENMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7ECE591B9A4D7C000CF46C /* ENMainMenuViewController.m */; };
-		8CD1BE781B9F69680029DACB /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BD721B9F69680029DACB /* Default-Landscape.png */; };
-		8CD1BE791B9F69680029DACB /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BD731B9F69680029DACB /* Default-Portrait.png */; };
-		8CD1BE7A1B9F69680029DACB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BD741B9F69680029DACB /* Default.png */; };
-		8CD1BE7B1B9F69680029DACB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BD751B9F69680029DACB /* Default@2x.png */; };
 		8CD1BE7C1B9F69680029DACB /* 02_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BD771B9F69680029DACB /* 02_001.jpg */; };
 		8CD1BE7D1B9F69680029DACB /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BD781B9F69680029DACB /* 14.jpg */; };
 		8CD1BE7E1B9F69680029DACB /* 19981029_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1BD791B9F69680029DACB /* 19981029_1.jpg */; };
@@ -264,6 +260,7 @@
 		9F2516ED21D9BCF90045205E /* ENAppContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516EA21D9BCF90045205E /* ENAppContentModel.m */; };
 		9F2516F621D9C44E0045205E /* ENContentSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516F521D9C44E0045205E /* ENContentSearchTableViewController.swift */; };
 		9F2516FD21D9CC370045205E /* ENNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516FC21D9CC370045205E /* ENNavigation.m */; };
+		9F4B8FD221D9D8490005CAA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B8FD121D9D8490005CAA4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -288,10 +285,6 @@
 		8C7ECE4E1B9A418E000CF46C /* LCEnlightenmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCEnlightenmentTests.m; sourceTree = "<group>"; };
 		8C7ECE581B9A4D7C000CF46C /* ENMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENMainMenuViewController.h; sourceTree = "<group>"; };
 		8C7ECE591B9A4D7C000CF46C /* ENMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENMainMenuViewController.m; sourceTree = "<group>"; };
-		8CD1BD721B9F69680029DACB /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
-		8CD1BD731B9F69680029DACB /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
-		8CD1BD741B9F69680029DACB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8CD1BD751B9F69680029DACB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8CD1BD771B9F69680029DACB /* 02_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02_001.jpg; sourceTree = "<group>"; };
 		8CD1BD781B9F69680029DACB /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
 		8CD1BD791B9F69680029DACB /* 19981029_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19981029_1.jpg; sourceTree = "<group>"; };
@@ -548,6 +541,7 @@
 		9F2516F521D9C44E0045205E /* ENContentSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENContentSearchTableViewController.swift; sourceTree = "<group>"; };
 		9F2516FB21D9CC370045205E /* ENNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENNavigation.h; sourceTree = "<group>"; };
 		9F2516FC21D9CC370045205E /* ENNavigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENNavigation.m; sourceTree = "<group>"; };
+		9F4B8FD121D9D8490005CAA4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -590,6 +584,7 @@
 		8C7ECE311B9A418E000CF46C /* LCEnlightenment */ = {
 			isa = PBXGroup;
 			children = (
+				9F4B8FD121D9D8490005CAA4 /* LaunchScreen.storyboard */,
 				8C7ECE361B9A418E000CF46C /* ENAppDelegate.h */,
 				8C7ECE371B9A418E000CF46C /* ENAppDelegate.m */,
 				9F2516F121D9C2DA0045205E /* Enlightenment-Bridging-Header.h */,
@@ -645,10 +640,6 @@
 		8CD1BD711B9F69680029DACB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8CD1BD721B9F69680029DACB /* Default-Landscape.png */,
-				8CD1BD731B9F69680029DACB /* Default-Portrait.png */,
-				8CD1BD741B9F69680029DACB /* Default.png */,
-				8CD1BD751B9F69680029DACB /* Default@2x.png */,
 				8CD1BD761B9F69680029DACB /* Gallery */,
 				8CD1BD8E1B9F69680029DACB /* Icons */,
 				8CD1BD921B9F69680029DACB /* Multimedia */,
@@ -1126,7 +1117,6 @@
 				8CD1BE9C1B9F69680029DACB /* navbg.png in Resources */,
 				8CD1BE8C1B9F69680029DACB /* photo 231.jpg in Resources */,
 				8CD1BF2D1B9F69690029DACB /* mir_mehmood.html in Resources */,
-				8CD1BE791B9F69680029DACB /* Default-Portrait.png in Resources */,
 				8CD1BEF01B9F69680029DACB /* dan.html in Resources */,
 				8CD1BED71B9F69680029DACB /* alvyjane.html in Resources */,
 				8CD1BEED1B9F69680029DACB /* craig.html in Resources */,
@@ -1215,7 +1205,6 @@
 				8CD1BEE51B9F69680029DACB /* cat.html in Resources */,
 				8CD1BF301B9F69690029DACB /* nexarius.html in Resources */,
 				8CD1BF381B9F69690029DACB /* pol_shappy.html in Resources */,
-				8CD1BE7B1B9F69680029DACB /* Default@2x.png in Resources */,
 				8CD1BEBA1B9F69680029DACB /* human_being_and_god.html in Resources */,
 				8CD1BEE81B9F69680029DACB /* chip.html in Resources */,
 				8CD1BF5A1B9F69690029DACB /* vivian.html in Resources */,
@@ -1305,7 +1294,6 @@
 				8CD1BEAC1B9F69680029DACB /* convo_13.html in Resources */,
 				8CD1BF1E1B9F69690029DACB /* lopez.html in Resources */,
 				8CD1BF0F1B9F69690029DACB /* joeeb.html in Resources */,
-				8CD1BE781B9F69680029DACB /* Default-Landscape.png in Resources */,
 				8CD1BF3C1B9F69690029DACB /* r_e_greene.html in Resources */,
 				8CD1BEC01B9F69680029DACB /* five_doubts.html in Resources */,
 				8CD1BED11B9F69680029DACB /* voices6.html in Resources */,
@@ -1313,6 +1301,7 @@
 				8CD1BF171B9F69690029DACB /* keith.html in Resources */,
 				8CD1BEBB1B9F69680029DACB /* places.html in Resources */,
 				8CD1BF3F1B9F69690029DACB /* rani.html in Resources */,
+				9F4B8FD221D9D8490005CAA4 /* LaunchScreen.storyboard in Resources */,
 				8CD1BF501B9F69690029DACB /* steve2.html in Resources */,
 				8CD1BEDA1B9F69680029DACB /* anele.html in Resources */,
 				8CD1BF0A1B9F69680029DACB /* jasonn.html in Resources */,
@@ -1346,7 +1335,6 @@
 				8CD1BF531B9F69690029DACB /* tarsem.html in Resources */,
 				8CD1BEA51B9F69680029DACB /* life.html in Resources */,
 				8CD1BECE1B9F69680029DACB /* voices3.html in Resources */,
-				8CD1BE7A1B9F69680029DACB /* Default.png in Resources */,
 				8CD1BF4B1B9F69690029DACB /* simon.html in Resources */,
 				8CD1BF441B9F69690029DACB /* sandhya.html in Resources */,
 				8CD1BF1D1B9F69690029DACB /* lk.html in Resources */,
@@ -1519,7 +1507,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1544,7 +1531,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
