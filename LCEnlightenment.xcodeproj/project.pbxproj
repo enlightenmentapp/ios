@@ -261,6 +261,8 @@
 		9F2516F621D9C44E0045205E /* ENContentSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516F521D9C44E0045205E /* ENContentSearchTableViewController.swift */; };
 		9F2516FD21D9CC370045205E /* ENNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516FC21D9CC370045205E /* ENNavigation.m */; };
 		9F4B8FD221D9D8490005CAA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B8FD121D9D8490005CAA4 /* LaunchScreen.storyboard */; };
+		9FDB3F5321E2A8D8000D7AAA /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB3F5221E2A8D8000D7AAA /* SnapshotHelper.swift */; };
+		9FDB3F5521E2ADAA000D7AAA /* EnlightenmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB3F5421E2ADAA000D7AAA /* EnlightenmentUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -270,6 +272,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8C7ECE2E1B9A418E000CF46C;
 			remoteInfo = LCEnlightenment;
+		};
+		9FDB3F4C21E2A832000D7AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C7ECE271B9A418E000CF46C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C7ECE2E1B9A418E000CF46C;
+			remoteInfo = Enlightenment;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -542,6 +551,11 @@
 		9F2516FB21D9CC370045205E /* ENNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENNavigation.h; sourceTree = "<group>"; };
 		9F2516FC21D9CC370045205E /* ENNavigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENNavigation.m; sourceTree = "<group>"; };
 		9F4B8FD121D9D8490005CAA4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FDB3F4721E2A832000D7AAA /* EnlightenmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnlightenmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDB3F4B21E2A832000D7AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDB3F5121E2A8D7000D7AAA /* EnlightenmentUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnlightenmentUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9FDB3F5221E2A8D8000D7AAA /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		9FDB3F5421E2ADAA000D7AAA /* EnlightenmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlightenmentUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -559,6 +573,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FDB3F4421E2A832000D7AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -568,6 +589,7 @@
 				8C7ECE311B9A418E000CF46C /* LCEnlightenment */,
 				8CD1BD711B9F69680029DACB /* Resources */,
 				8C7ECE4B1B9A418E000CF46C /* LCEnlightenmentTests */,
+				9FDB3F4821E2A832000D7AAA /* EnlightenmentUITests */,
 				8C7ECE301B9A418E000CF46C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -577,6 +599,7 @@
 			children = (
 				8C7ECE2F1B9A418E000CF46C /* Enlightenment.app */,
 				8C7ECE481B9A418E000CF46C /* LCEnlightenmentTests.xctest */,
+				9FDB3F4721E2A832000D7AAA /* EnlightenmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -605,6 +628,7 @@
 				9F2516F521D9C44E0045205E /* ENContentSearchTableViewController.swift */,
 				9F2516FB21D9CC370045205E /* ENNavigation.h */,
 				9F2516FC21D9CC370045205E /* ENNavigation.m */,
+				9FDB3F5221E2A8D8000D7AAA /* SnapshotHelper.swift */,
 				8C7ECE3F1B9A418E000CF46C /* Images.xcassets */,
 				8C7ECE321B9A418E000CF46C /* Supporting Files */,
 			);
@@ -1029,6 +1053,16 @@
 			path = travel;
 			sourceTree = "<group>";
 		};
+		9FDB3F4821E2A832000D7AAA /* EnlightenmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FDB3F5121E2A8D7000D7AAA /* EnlightenmentUITests-Bridging-Header.h */,
+				9FDB3F5421E2ADAA000D7AAA /* EnlightenmentUITests.swift */,
+				9FDB3F4B21E2A832000D7AAA /* Info.plist */,
+			);
+			path = EnlightenmentUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1067,6 +1101,24 @@
 			productReference = 8C7ECE481B9A418E000CF46C /* LCEnlightenmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9FDB3F4621E2A832000D7AAA /* EnlightenmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FDB3F5021E2A832000D7AAA /* Build configuration list for PBXNativeTarget "EnlightenmentUITests" */;
+			buildPhases = (
+				9FDB3F4321E2A832000D7AAA /* Sources */,
+				9FDB3F4421E2A832000D7AAA /* Frameworks */,
+				9FDB3F4521E2A832000D7AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FDB3F4D21E2A832000D7AAA /* PBXTargetDependency */,
+			);
+			name = EnlightenmentUITests;
+			productName = EnlightenmentUITests;
+			productReference = 9FDB3F4721E2A832000D7AAA /* EnlightenmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1086,6 +1138,13 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 8C7ECE2E1B9A418E000CF46C;
 					};
+					9FDB3F4621E2A832000D7AAA = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = KKKKJ8SSH9;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C7ECE2E1B9A418E000CF46C;
+					};
 				};
 			};
 			buildConfigurationList = 8C7ECE2A1B9A418E000CF46C /* Build configuration list for PBXProject "LCEnlightenment" */;
@@ -1103,6 +1162,7 @@
 			targets = (
 				8C7ECE2E1B9A418E000CF46C /* Enlightenment */,
 				8C7ECE471B9A418E000CF46C /* LCEnlightenmentTests */,
+				9FDB3F4621E2A832000D7AAA /* EnlightenmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1364,6 +1424,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FDB3F4521E2A832000D7AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1393,6 +1460,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FDB3F4321E2A832000D7AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDB3F5521E2ADAA000D7AAA /* EnlightenmentUITests.swift in Sources */,
+				9FDB3F5321E2A8D8000D7AAA /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1400,6 +1476,11 @@
 			isa = PBXTargetDependency;
 			target = 8C7ECE2E1B9A418E000CF46C /* Enlightenment */;
 			targetProxy = 8C7ECE491B9A418E000CF46C /* PBXContainerItemProxy */;
+		};
+		9FDB3F4D21E2A832000D7AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C7ECE2E1B9A418E000CF46C /* Enlightenment */;
+			targetProxy = 9FDB3F4C21E2A832000D7AAA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1588,6 +1669,66 @@
 			};
 			name = Release;
 		};
+		9FDB3F4E21E2A832000D7AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KKKKJ8SSH9;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EnlightenmentUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enlightenment.EnlightenmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EnlightenmentUITests/EnlightenmentUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Enlightenment;
+			};
+			name = Debug;
+		};
+		9FDB3F4F21E2A832000D7AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KKKKJ8SSH9;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = EnlightenmentUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enlightenment.EnlightenmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EnlightenmentUITests/EnlightenmentUITests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Enlightenment;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1614,6 +1755,15 @@
 			buildConfigurations = (
 				8C7ECE561B9A418E000CF46C /* Debug */,
 				8C7ECE571B9A418E000CF46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FDB3F5021E2A832000D7AAA /* Build configuration list for PBXNativeTarget "EnlightenmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDB3F4E21E2A832000D7AAA /* Debug */,
+				9FDB3F4F21E2A832000D7AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
