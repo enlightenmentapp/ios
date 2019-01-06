@@ -1546,7 +1546,8 @@
                                                                              index:7];
     conversationsENList.array = [conversationsArray copy];
     [tableOfContentsArray addObject:conversationsENList];
-    
+	
+	
     //********Photo Gallery****
     ENList *imagesForGalleryENList = [self addENListENListWithTitle:@"Photos of Tathagata"
                                                 description:@""
@@ -1554,7 +1555,38 @@
                                                       index:8];
     
     [tableOfContentsArray addObject:imagesForGalleryENList];
-    
+	
+
+	
+	//*******Multimedia******
+	NSMutableArray *multimediaArray = [[NSMutableArray alloc] init];
+	[self addENDocumentWithTitle:@"Meeting with Astronomy Professor Arlin Crotts"
+					 description:@"Columbia University, New York. (audio)"
+						filename:@"08_033070122_Columbia_Astronomy_prof.ArlinCrotts"
+					   sourceURL:nil // TODO
+mediaFileExtension_orNilForNotMediaDocument:@"mp3"
+						  parent:multimediaArray
+						   index:0];
+	[self addENDocumentWithTitle:@"Meeting with Philosophy Chairman Michael Della Rocca"
+					 description:@"Yale University, New Haven. (audio)"
+						filename:@"20_068070205_Yale_Philosophy_Chairprof.MichaelDellaRocca"
+					   sourceURL:nil // TODO
+mediaFileExtension_orNilForNotMediaDocument:@"mp3"
+						  parent:multimediaArray
+						   index:1];
+	[self addENDocumentWithTitle:@"Meeting in Malaysia"
+					 description:@"August 13, 2008 (audio)"
+						filename:@"20080813_malaysia"
+					   sourceURL:nil // TODO
+mediaFileExtension_orNilForNotMediaDocument:@"mp3"
+						  parent:multimediaArray
+						   index:2];
+	
+	ENList *multimediaENList = [self addENDocumentENListWithTitle:@"Multimedia" description:@"" section:@"multimedia" index:9];
+	multimediaENList.array = [multimediaArray copy];
+	[tableOfContentsArray addObject:multimediaENList];
+	
+	
     //*********Links*********
     NSMutableArray *linksArray = [[NSMutableArray alloc] init];
     [self addENDocumentWithTitle:@"members.tripod.com/tathagata2000"
@@ -1588,7 +1620,7 @@
     
     [self addENDocumentWithTitle:@"tathagatablog.wordpress.com/" description:@"Blog about Tathagata and his teachings with translations by Craig."  filename:@"https://tathagatablog.wordpress.com/" parent:linksArray index:7];
     
-    ENList *linksENList = [self addENDocumentENListWithTitle:@"Links" description:@"" section:@"links" index:8];
+    ENList *linksENList = [self addENDocumentENListWithTitle:@"Links" description:@"" section:@"links" index:10];
     linksENList.array = [linksArray copy];
     [tableOfContentsArray addObject:linksENList];
 
@@ -1603,22 +1635,29 @@
 
 - (void)addENDocumentWithTitle:(NSString *)title description:(id)description filename:(id)filename sourceURL:(id)sourceURL parent:(id)parent index:(int)index
 {
-    
-    ENDocument *document = [[ENDocument alloc] init];
-    document.title = title;
-    document.filename = filename;
-    document.detailText = description;
-    document.index = [NSNumber numberWithInt:index];
-    document.parent = parent;
-    document.sourceURL = sourceURL;
-    if (parent) {
-        [parent addObject:document];
-    }
+    [self addENDocumentWithTitle:title description:description filename:filename sourceURL:sourceURL mediaFileExtension_orNilForNotMediaDocument:nil parent:parent index:index];
 }
 
 - (void)addENDocumentWithTitle:(NSString *)title description:(id)description filename:(id)filename parent:(id)parent index:(int)index
 {
     [self addENDocumentWithTitle:title description:description filename:filename sourceURL:nil parent:parent index:index];
+}
+
+- (void)addENDocumentWithTitle:(NSString *)title description:(id)description filename:(id)filename sourceURL:(id)sourceURL mediaFileExtension_orNilForNotMediaDocument:(NSString *)mediaFileExtension parent:(id)parent index:(int)index
+{
+	
+	ENDocument *document = [[ENDocument alloc] init];
+	document.title = title;
+	document.filename = filename;
+	document.detailText = description;
+	document.index = [NSNumber numberWithInt:index];
+	document.parent = parent;
+	document.sourceURL = sourceURL;
+	document.mediaFileExtension = mediaFileExtension;
+	document.isBundledMediaFile = mediaFileExtension != nil;
+	if (parent) {
+		[parent addObject:document];
+	}
 }
 
 -(ENList *) addENDocumentENListWithTitle:(id)title

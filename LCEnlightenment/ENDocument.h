@@ -19,4 +19,8 @@
 
 @property (strong, nonatomic) NSNumber *index;
 
+@property (nonatomic) BOOL isBundledMediaFile;
+@property (nonatomic, copy) NSString *mediaFileExtension;
+
+
 @end
