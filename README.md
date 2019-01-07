@@ -28,6 +28,7 @@ The app can be downloaded on the App Store at [https://itunes.apple.com/us/app/e
 * Publications
 * Photos of Tathagata and audio recordings
 * Content search capability
+* Multimedia player for some recordings of Tathagata's meetings
 * Links to websites about Tathagata
 
 ## Reporting Bugs
