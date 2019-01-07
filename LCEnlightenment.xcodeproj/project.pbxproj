@@ -255,12 +255,12 @@
 		8CD1BF831BA238730029DACB /* ENDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF821BA238730029DACB /* ENDocument.m */; };
 		8CD1BF9B1BA4BE2C0029DACB /* ENTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BF9A1BA4BE2C0029DACB /* ENTableViewController.m */; };
 		8CD1BFD01BA788EC0029DACB /* ENList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BFCF1BA788EC0029DACB /* ENList.m */; };
-		8CD1BFD61BAB7ABA0029DACB /* ENTathagataGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1BFD51BAB7ABA0029DACB /* ENTathagataGalleryViewController.m */; };
 		9F2516EC21D9BCF90045205E /* ENBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516E821D9BCF90045205E /* ENBaseWebViewController.m */; };
 		9F2516ED21D9BCF90045205E /* ENAppContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516EA21D9BCF90045205E /* ENAppContentModel.m */; };
 		9F2516F621D9C44E0045205E /* ENContentSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516F521D9C44E0045205E /* ENContentSearchTableViewController.swift */; };
 		9F2516FD21D9CC370045205E /* ENNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516FC21D9CC370045205E /* ENNavigation.m */; };
 		9F4B8FD221D9D8490005CAA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B8FD121D9D8490005CAA4 /* LaunchScreen.storyboard */; };
+		9F6B795821E30CB900514579 /* ScrollingGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B795721E30CB900514579 /* ScrollingGalleryViewController.swift */; };
 		9FDB3F5321E2A8D8000D7AAA /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB3F5221E2A8D8000D7AAA /* SnapshotHelper.swift */; };
 		9FDB3F5521E2ADAA000D7AAA /* EnlightenmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB3F5421E2ADAA000D7AAA /* EnlightenmentUITests.swift */; };
 		9FDB3F5921E2B91B000D7AAA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDB3F5721E2B91B000D7AAA /* AVFoundation.framework */; };
@@ -542,8 +542,6 @@
 		8CD1BF9A1BA4BE2C0029DACB /* ENTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTableViewController.m; sourceTree = "<group>"; };
 		8CD1BFCE1BA788EC0029DACB /* ENList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENList.h; sourceTree = "<group>"; };
 		8CD1BFCF1BA788EC0029DACB /* ENList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENList.m; sourceTree = "<group>"; };
-		8CD1BFD41BAB7ABA0029DACB /* ENTathagataGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTathagataGalleryViewController.h; sourceTree = "<group>"; };
-		8CD1BFD51BAB7ABA0029DACB /* ENTathagataGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTathagataGalleryViewController.m; sourceTree = "<group>"; };
 		9F2516E821D9BCF90045205E /* ENBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENBaseWebViewController.m; sourceTree = "<group>"; };
 		9F2516E921D9BCF90045205E /* ENAppContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAppContentModel.h; sourceTree = "<group>"; };
 		9F2516EA21D9BCF90045205E /* ENAppContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENAppContentModel.m; sourceTree = "<group>"; };
@@ -553,6 +551,7 @@
 		9F2516FB21D9CC370045205E /* ENNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENNavigation.h; sourceTree = "<group>"; };
 		9F2516FC21D9CC370045205E /* ENNavigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENNavigation.m; sourceTree = "<group>"; };
 		9F4B8FD121D9D8490005CAA4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F6B795721E30CB900514579 /* ScrollingGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingGalleryViewController.swift; sourceTree = "<group>"; };
 		9FDB3F4721E2A832000D7AAA /* EnlightenmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnlightenmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDB3F4B21E2A832000D7AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FDB3F5121E2A8D7000D7AAA /* EnlightenmentUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnlightenmentUITests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -630,8 +629,7 @@
 				8CD1BF9A1BA4BE2C0029DACB /* ENTableViewController.m */,
 				9F2516EB21D9BCF90045205E /* ENBaseWebViewController.h */,
 				9F2516E821D9BCF90045205E /* ENBaseWebViewController.m */,
-				8CD1BFD41BAB7ABA0029DACB /* ENTathagataGalleryViewController.h */,
-				8CD1BFD51BAB7ABA0029DACB /* ENTathagataGalleryViewController.m */,
+				9F6B795721E30CB900514579 /* ScrollingGalleryViewController.swift */,
 				9F2516F521D9C44E0045205E /* ENContentSearchTableViewController.swift */,
 				9F2516FB21D9CC370045205E /* ENNavigation.h */,
 				9F2516FC21D9CC370045205E /* ENNavigation.m */,
@@ -1456,11 +1454,11 @@
 			files = (
 				9F2516FD21D9CC370045205E /* ENNavigation.m in Sources */,
 				9F2516F621D9C44E0045205E /* ENContentSearchTableViewController.swift in Sources */,
-				8CD1BFD61BAB7ABA0029DACB /* ENTathagataGalleryViewController.m in Sources */,
 				8C7ECE381B9A418E000CF46C /* ENAppDelegate.m in Sources */,
 				8C7ECE5A1B9A4D7C000CF46C /* ENMainMenuViewController.m in Sources */,
 				8CD1BF9B1BA4BE2C0029DACB /* ENTableViewController.m in Sources */,
 				8C7ECE351B9A418E000CF46C /* main.m in Sources */,
+				9F6B795821E30CB900514579 /* ScrollingGalleryViewController.swift in Sources */,
 				8CD1BFD01BA788EC0029DACB /* ENList.m in Sources */,
 				9F2516ED21D9BCF90045205E /* ENAppContentModel.m in Sources */,
 				8CD1BF831BA238730029DACB /* ENDocument.m in Sources */,

@@ -11,7 +11,6 @@
 #import "ENDocument.h"
 #import "ENList.h"
 #import "ENBaseWebViewController.h"
-#import "ENTathagataGalleryViewController.h"
 #import "Enlightenment-Swift.h"
 #import "ENNavigation.h"
 
@@ -72,8 +71,8 @@
     if ([[self.list.array objectAtIndex:indexPath.row] isKindOfClass:[ENList class]]) {
         ENList *list = [self.list.array objectAtIndex:indexPath.row];
         if ([list.section isEqual:@"images"]) { // Transition to Photo Gallery
-            ENTathagataGalleryViewController *galleryViewController = [[ENTathagataGalleryViewController alloc] init];
-            [self.navigationController pushViewController:galleryViewController animated:YES];
+			TathagataGalleryViewController *controller = [[TathagataGalleryViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
         } else { // Transition to table view
 			TableViewController *tableViewController = [[TableViewController alloc] init];
 			tableViewController.list = [self.list.array objectAtIndex:indexPath.row];

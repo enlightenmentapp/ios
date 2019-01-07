@@ -1548,15 +1548,7 @@
     [tableOfContentsArray addObject:conversationsENList];
 	
 	
-    //********Photo Gallery****
-    ENList *imagesForGalleryENList = [self addENListENListWithTitle:@"Photos of Tathagata"
-                                                description:@""
-                                                    section:@"images"
-                                                      index:8];
-    
-    [tableOfContentsArray addObject:imagesForGalleryENList];
 	
-
 	
 	//*******Multimedia******
 	NSMutableArray *multimediaArray = [[NSMutableArray alloc] init];
@@ -1582,9 +1574,19 @@ mediaFileExtension_orNilForNotMediaDocument:@"mp3"
 						  parent:multimediaArray
 						   index:2];
 	
-	ENList *multimediaENList = [self addENDocumentENListWithTitle:@"Multimedia" description:@"" section:@"multimedia" index:9];
+	ENList *multimediaENList = [self addENDocumentENListWithTitle:@"Multimedia" description:@"" section:@"multimedia" index:8];
 	multimediaENList.array = [multimediaArray copy];
 	[tableOfContentsArray addObject:multimediaENList];
+	
+	
+    //********Photo Gallery****
+    ENList *imagesForGalleryENList = [self addENListENListWithTitle:@"Photos of Tathagata"
+                                                description:@""
+                                                    section:@"images"
+                                                      index:9];
+    
+    [tableOfContentsArray addObject:imagesForGalleryENList];
+	
 	
 	
     //*********Links*********
@@ -1748,6 +1750,9 @@ mediaFileExtension_orNilForNotMediaDocument:@"mp3"
 				return YES;
 			}
 		} else { // then it must be an HTML file (at present)
+			if (document.isBundledMediaFile) {
+				return NO; // since we can't search the content
+			}
 			NSString *filePath = [[NSBundle mainBundle] pathForResource:document.filename ofType:@"html"];
 			NSError *error = NULL;
 			NSString *fileContentString = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error];
