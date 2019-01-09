@@ -90,6 +90,7 @@ class TathagataGalleryViewController: UIViewController, UIPageViewControllerData
 	static let numPages = imageNames.count
 	var pageViewController: UIPageViewController!
 	var captionLabel: UILabel!
+	var lastPendingViewControllerIndex: Int?
 	//
 	// Accessors - Factories
 	func new_viewController(forIndex index: Int) -> AGalleryPageViewController
@@ -162,8 +163,18 @@ class TathagataGalleryViewController: UIViewController, UIPageViewControllerData
 	// Delegate - UIPageViewControllerDelegate
 	func pageViewController(_ pageViewController: UIPageViewController, willTransitionTo pendingViewControllers: [UIViewController])
 	{
-		let index = (pendingViewControllers.first! as! AGalleryPageViewController).index!
-		self.configureUI(withIndex: index)
+		self.lastPendingViewControllerIndex = (pendingViewControllers.first! as! AGalleryPageViewController).index!
+	}
+	func pageViewController(
+		_ pageViewController: UIPageViewController,
+		didFinishAnimating finished: Bool,
+		previousViewControllers: [UIViewController],
+		transitionCompleted completed: Bool
+	) {
+		if completed {
+			self.configureUI(withIndex: self.lastPendingViewControllerIndex!)
+			self.lastPendingViewControllerIndex = nil
+		}
 	}
 	//
 	// Delegate - UIPageViewControllerDataSource
