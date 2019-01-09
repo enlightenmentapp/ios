@@ -131,11 +131,11 @@
                               @"imageView" : self.imageView};
     
     //Buttons
-    NSArray *introButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-40-[introductionButton]-40-|" options:0 metrics:nil views:nameMap];
+    NSArray *introButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-30-[introductionButton]-30-|" options:0 metrics:nil views:nameMap];
     
-    NSArray *messageButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-40-[messageFromTathagataButton]-40-|" options:0 metrics:nil views:nameMap];
+    NSArray *messageButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-30-[messageFromTathagataButton]-30-|" options:0 metrics:nil views:nameMap];
     
-    NSArray *tableButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-40-[tableOfContentsButton]-40-|" options:0 metrics:nil views:nameMap];
+    NSArray *tableButtonHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-30-[tableOfContentsButton]-30-|" options:0 metrics:nil views:nameMap];
     
     
     
@@ -146,7 +146,7 @@
     //"Enlightenment Title"
     NSArray *titleLabelHorizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-20-[titleLabel]-20-|" options:0 metrics:nil views:nameMap];
     
-    NSArray *titleLabelVerticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-30-[titleLabel]" options:0 metrics:nil views:nameMap];
+    NSArray *titleLabelVerticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-50-[titleLabel]" options:0 metrics:nil views:nameMap];
     
     NSArray *imageViewVerticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:[titleLabel]-5-[imageView]-5-[introductionButton]" options:0 metrics:nil views:nameMap];
     
