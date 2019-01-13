@@ -1,0 +1,1387 @@
+{
+	"root": "menu",
+	"menu": [
+		{
+			"title": "Introduction",
+			"filename": "introduction"
+		},
+		{
+			"title": "A Message From Tathagata",
+			"page_title": "Message From Tathagata",
+			"filename": "message"
+		},
+		{
+			"title": "Table Of Contents",
+			"list": "contents"
+		}
+	],
+	"contents": [
+		{
+			"title": "Latest Teachings",
+			"list": "teaching" 
+		},
+		{
+			"title": "Questions & Answers",
+			"list": "qa"
+		},
+		{
+			"title": "Articles & Teachings",
+			"list": "articles"
+		},
+		{
+			"title": "About Tathagata",
+			"list": "about"
+		},
+		{
+			"title": "Publications",
+			"list": "publications"
+		},
+		{
+			"title": "Lectures",
+			"list": "lectures"
+		},
+		{
+			"title": "Travel Notes",
+			"list": "travel"
+		},
+		{
+			"title": "Conversations",
+			"list": "conversations"
+		},
+		{
+			"title": "Multimedia",
+			"list": "multimedia"
+		},
+		{
+			"title": "Photos of Tathagata",
+			"list": "images"
+		},
+		{
+			"title": "Links",
+			"list": "links"
+		}
+	],
+	"teaching": [
+		{
+			"title": "Teaching from 11/26/2006",
+			"description": "",
+			"filename" : "11262006"
+		},
+		{
+			"title": "Teaching from 12/10/2006",
+			"description": "",
+			"filename" : "12102006"
+		},
+		{
+			"title": "Teaching from 12/17/2006",
+			"description": "",
+			"filename" : "12172006"
+		},
+		{
+			"title": "Teaching from 12/24/2006",
+			"description": "",
+			"filename" : "12242006"
+		},
+		{
+			"title": "Teaching from 2/25/2007",
+			"description": "",
+			"filename" : "02252007"
+		},
+		{
+			"title": "Teaching from 3/4/2007",
+			"description": "",
+			"filename" : "03042007"
+		}
+	],
+	"qa": [
+		{
+			"title": "Questions 1 - 20",
+			"description": "11/13/2005 - 9/4/2006",
+			"list": "1-20"
+		},
+		{
+			"title": "Questions 21 - 40",
+			"description": "9/24/2006 - 3/10/2007",
+			"list": "21-40"
+		},
+		{
+			"title": "Questions 41 - 60",
+			"description": "3/13/2007 - 5/7/2007",
+			"list": "41-60"
+		},
+		{
+			"title": "Questions 61 - 80",
+			"description": "5/24/2007 - 9/7/2007",
+			"list": "61-80"
+		},
+		{
+			"title": "Questions 81 - 100",
+			"description": "9/12/2007 - 1/9/2008",
+			"list": "81-100"
+		},
+		{
+			"title": "Questions 101 - 120",
+			"description": "1/15/2008 - 9/7/2008",
+			"list": "101-120"
+		},
+		{
+			"title": "Questions 120 - 138",
+			"description": "4/10/2008 - 7/18/2008",
+			"list": "121-138"
+		}
+	],
+	"1-20": [
+		{
+			"title": "Q1 - From Steve",
+			"description": "11/13/2005",
+			"filename": "steve",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/steve.htm"
+		},
+		{
+			"title": "Q2 - From Santosh",
+			"description": "11/14/2005",
+			"filename": "santosh",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/santosh.htm"
+		},
+		{
+			"title": "Q3 - From Marcello",
+			"description": "11/16/2005",
+			"filename": "marcello",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/marcello.htm"
+		},
+		{
+			"title": "Q4 - From Michael",
+			"description": "11/26/2005",
+			"filename": "michael",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/michael.htm"
+		},
+		{
+			"title": "Q5 - From Jenny",
+			"description": "12/15/2005",
+			"filename": "jenny",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/jenny.htm"
+		},
+		{
+			"title": "Q6 - From Indrajit",
+			"description": "4/10/2006",
+			"filename": "indrajit",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/indrajit.htm"
+		},
+		{
+			"title": "Q7 - From Peter",
+			"description": "4/21/2006",
+			"filename": "peter",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/peter.htm"
+		},
+		{
+			"title": "Q8 - From Barbara",
+			"description": "5/3/2006",
+			"filename": "barbara",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/barbara.htm"
+		},
+		{
+			"title": "Q9 - From Vivian",
+			"description": "6/7/2006",
+			"filename": "vivian",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/vivian.htm"
+		},
+		{
+			"title": "Q10 - From Vanessa",
+			"description": "7/25/2006",
+			"filename": "vanessa",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/vanessa.htm"
+		},
+		{
+			"title": "Q11 - From Nexarius",
+			"description": "7/31/2006",
+			"filename": "nexarius",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/nexarius.htm"
+		},
+		{
+			"title": "Q12 - From Somnath",
+			"description": "8/2/2006",
+			"filename": "somnath",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/somnath.htm"
+		},
+		{
+			"title": "Q13 - From Pradeep",
+			"description": "8/6/2006",
+			"filename": "pradeep",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/pradeep.htm"
+		},
+		{
+			"title": "Q14 - From Dave Cote",
+			"description": "8/19/2006",
+			"filename": "dave_cote",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/dave_cote.htm"
+		},
+		{
+			"title": "Q15 - From Karen",
+			"description": "8/20/2006",
+			"filename": "karen_lonsdale",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/karen.htm"
+		},
+		{
+			"title": "Q16 - From Sean",
+			"description": "8/21/2006",
+			"filename": "sean",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/sean.htm"
+		},
+		{
+			"title": "Q17 - From Cacohen",
+			"description": "8/24/2006",
+			"filename": "cacohen",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/cacohen.htm"
+		},
+		{
+			"title": "Q18 - From Shailendra",
+			"description": "8/29/2006",
+			"filename": "shailendra",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/shailendra.htm"
+		},
+		{
+			"title": "Q19 - From Tom",
+			"description": "8/29/2006",
+			"filename": "tom",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/tom.htm"
+		},
+		{
+			"title": "Q20 - From Cindy",
+			"description": "9/4/2006",
+			"filename": "cindy",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/cindy.htm"
+		}
+	],
+	"21-40": [
+		{
+			"title": "Q21 - From R Kondur",
+			"description": "9/24/2006",
+			"filename": "r_kondur",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/r_kondur.htm"
+		},
+		{
+			"title": "Q22 - From Ying",
+			"description": "10/26/2006",
+			"filename": "ying",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/ying.htm"
+		},
+		{
+			"title": "Q23 - From Jan",
+			"description": "10/28/2006",
+			"filename": "jan",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/jan.htm"
+		},
+		{
+			"title": "Q24 - From Steve",
+			"description": "11/23/2006",
+			"filename": "steve2",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/steve2.htm"
+		},
+		{
+			"title": "Q25 - From Edward",
+			"description": "11/29/2006",
+			"filename": "edward",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/edward.htm"
+		},
+		{
+			"title": "Q26 - From Wadine",
+			"description": "11/30/2006",
+			"filename": "wadine",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/wadine.htm"
+		},
+		{
+			"title": "Q27 - From Pol Shappy",
+			"description": "12/8/2006",
+			"filename": "pol_shappy",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/pol_shappy.htm"
+		},
+		{
+			"title": "Q28 - From John",
+			"description": "12/29/2006",
+			"filename": "john",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/john.htm"
+		},
+		{
+			"title": "Q29 - From Richard",
+			"description": "12/30/2006",
+			"filename": "richard",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/richard.htm"
+		},
+		{
+			"title": "Q30 - From Neil",
+			"description": "1/7/2007",
+			"filename": "neil",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/neil.htm"
+		},
+		{
+			"title": "Q31 - From Robert",
+			"description": "1/9/2007",
+			"filename": "robert",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/robert.htm"
+		},
+		{
+			"title": "Q32 - From Bryan",
+			"description": "1/11/2007",
+			"filename": "bryan",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/bryan.htm"
+		},
+		{
+			"title": "Q33 - From Bob",
+			"description": "1/12/2007",
+			"filename": "bob",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/bob.htm"
+		},
+		{
+			"title": "Q34 - From Sandhya",
+			"description": "1/13/2007",
+			"filename": "sandhya",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/sandhya.htm"
+		},
+		{
+			"title": "Q35 - From Stanley",
+			"description": "1/20/2007",
+			"filename": "stanely",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/stanely.htm"
+		},
+		{
+			"title": "Q36 - From Craig",
+			"description": "2/22/2007",
+			"filename": "craig",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/craig.htm"
+		},
+		{
+			"title": "Q37 - From Shaun",
+			"description": "3/2/2007",
+			"filename": "shaun",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/shaun.htm"
+		},
+		{
+			"title": "Q38 - From Rani",
+			"description": "3/2/2007",
+			"filename": "rani",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/rani.htm"
+		},
+		{
+			"title": "Q39 - From Leon",
+			"description": "3/4/2007",
+			"filename": "leon",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/leon.htm"
+		},
+		{
+			"title": "Q40 - From Bruce",
+			"description": "3/10/2007",
+			"filename": "bruce",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/bruce.htm"
+		}
+	],
+	"41-60": [
+		{
+			"title": "Q41 - From Dan",
+			"description": "3/12/2007",
+			"filename": "dan",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/dan.htm"
+		},
+		{
+			"title": "Q42 - From RS Champagne",
+			"description": "3/16/2007",
+			"filename": "rs_champagne",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/rs_champagne.htm"
+		},
+		{
+			"title": "Q43 - From Kong KC",
+			"description": "3/18/2007",
+			"filename": "kongkc",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/kongkc.htm"
+		},
+		{
+			"title": "Q44 - From Matt Hewitt",
+			"description": "3/21/2007",
+			"filename": "matt_hewitt",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/matt_hewitt.htm"
+		},
+		{
+			"title": "Q45 - From J Van Aardt",
+			"description": "3/24/2007",
+			"filename": "jvanaardt",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/jvanaardt.htm"
+		},
+		{
+			"title": "Q46 - From Keith Butler",
+			"description": "3/24/2007",
+			"filename": "keith",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/keith.htm"
+		},
+		{
+			"title": "Q47 - From Steve",
+			"description": "3/26/2007",
+			"filename": "steve3",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/steve3.htm"
+		},
+		{
+			"title": "Q48 - From Toto",
+			"description": "3/29/2007",
+			"filename": "toto",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/toto.htm"
+		},
+		{
+			"title": "Q49 - From Ing",
+			"description": "4/3/2007",
+			"filename": "ing",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/ing.htm"
+		},
+		{
+			"title": "Q50 - From Ishaqui",
+			"description": "4/3/2007",
+			"filename": "ishaqui",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/ishaqui.htm"
+		},
+		{
+			"title": "Q51 - From Marios",
+			"description": "4/5/2007",
+			"filename": "marios",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/marios.htm"
+		},
+		{
+			"title": "Q52 - From Nitin",
+			"description": "4/9/2007",
+			"filename": "nitin",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/nitin.htm"
+		},
+		{
+			"title": "Q53 - From Christopher Sambo",
+			"description": "4/1/2007",
+			"filename": "christopher_sambo",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/christopher_sambo.htm"
+		},
+		{
+			"title": "Q54 - From Michael",
+			"description": "4/16/2007",
+			"filename": "michael80",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/michael80.htm"
+		},
+		{
+			"title": "Q55 - From Joe",
+			"description": "4/17/2007",
+			"filename": "joe",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/joe.htm"
+		},
+		{
+			"title": "Q56 - From JK",
+			"description": "4/24/2007",
+			"filename": "jk",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/jk.htm"
+		},
+		{
+			"title": "Q57 - From James Ling",
+			"description": "4/27/2007",
+			"filename": "james_ling",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/james_ling.htm"
+		},
+		{
+			"title": "Q58 - From LRL Gupta",
+			"description": "4/30/2007",
+			"filename": "lrl_gupta",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/lrl_gupta.htm"
+		},
+		{
+			"title": "Q59 - From George K",
+			"description": "5/5/2007",
+			"filename": "george_k",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/george_k.htm"
+		},
+		{
+			"title": "Q60 - From Leo",
+			"description": "5/7/2007",
+			"filename": "leo",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/leo.htm"
+		}
+	],
+	"61-80": [
+		{
+			"title": "Q61 - From Anele",
+			"description": "5/24/2007",
+			"filename": "anele",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/anele.htm"
+		},
+		{
+			"title": "Q62 - From Zihao",
+			"description": "5/24/2007",
+			"filename": "zihao",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/zihao.htm"
+		},
+		{
+			"title": "Q63 - From Simon",
+			"description": "6/3/2007",
+			"filename": "simon",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/simon.htm"
+		},
+		{
+			"title": "Q64 - From Gordon",
+			"description": "6/3/2007",
+			"filename": "gordon",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/gordon.htm"
+		},
+		{
+			"title": "Q65 - From Cherry",
+			"description": "6/9/2007",
+			"filename": "cherry",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/cherry.htm"
+		},
+		{
+			"title": "Q66 - From Mir Mehmood",
+			"description": "6/12/2007",
+			"filename": "mir_mehmood",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/mir_mehmood.htm"
+		},
+		{
+			"title": "Q67 - From Henry",
+			"description": "6/17/2007",
+			"filename": "henry",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/henry.htm"
+		},
+		{
+			"title": "Q68 - From Ron",
+			"description": "6/20/2007",
+			"filename": "ron",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/ron.htm"
+		},
+		{
+			"title": "Q69 - From Kim",
+			"description": "7/4/2007",
+			"filename": "kim",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/kim.htm"
+		},
+		{
+			"title": "Q70 - From Jerry",
+			"description": "7/4/2007",
+			"filename": "jerry",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/jerry.htm"
+		},
+		{
+			"title": "Q71 - From Vinod",
+			"description": "7/8/2007",
+			"filename": "vinod",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/vinod.htm"
+		},
+		{
+			"title": "Q72 - From Cri",
+			"description": "7/11/2007",
+			"filename": "cri",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/cri.htm"
+		},
+		{
+			"title": "Q73 - From AP",
+			"description": "7/29/2007",
+			"filename": "ap",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/ap.htm"
+		},
+		{
+			"title": "Q74 - From Kyle",
+			"description": "7/30/2007",
+			"filename": "kyle",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/kyle.htm"
+		},
+		{
+			"title": "Q75 - From Peter",
+			"description": "7/30/2007",
+			"filename": "peterae",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/peterae.htm"
+		},
+		{
+			"title": "Q76 - From Charan Singh",
+			"description": "8/1/2007",
+			"filename": "charan_singh",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/charan_singh.htm"
+		},
+		{
+			"title": "Q77 - From Clay",
+			"description": "8/20/2007",
+			"filename": "clay",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/clay.htm"
+		},
+		{
+			"title": "Q78 - From Ingmar",
+			"description": "8/21/2007",
+			"filename": "ingmar",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/ingmar.htm"
+		},
+		{
+			"title": "Q79 - From Pamela",
+			"description": "8/30/2007",
+			"filename": "pamela",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/pamela.htm"
+		},
+		{
+			"title": "Q80 - From Xi",
+			"description": "9/7/2007",
+			"filename": "xi",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/xi.htm"
+		}
+	],
+	"81-100": [
+		{
+			"title": "Q81 - From Brenda",
+			"description": "9/12/2007",
+			"filename": "brenda",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/brenda.htm"
+		},
+		{
+			"title": "Q82 - From V",
+			"description": "9/15/2007",
+			"filename": "v",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/v.htm"
+		},
+		{
+			"title": "Q83 - From Karloze",
+			"description": "11/6/2007",
+			"filename": "karloze",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/karloze.htm"
+		},
+		{
+			"title": "Q84 - From Sean",
+			"description": "11/21/2007",
+			"filename": "seanb6",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/seanb6.htm"
+		},
+		{
+			"title": "Q85 - From SWP",
+			"description": "11/22/2007",
+			"filename": "swp",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/swp.htm"
+		},
+		{
+			"title": "Q86 - From Pravin",
+			"description": "11/24/2007",
+			"filename": "pravin",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/pravin.htm"
+		},
+		{
+			"title": "Q87 - From Frank",
+			"description": "11/25/2007",
+			"filename": "frank",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/frank.htm"
+		},
+		{
+			"title": "Q88 - From Indu",
+			"description": "12/2/2007",
+			"filename": "indu",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/indu.htm"
+		},
+		{
+			"title": "Q89 - From Joyce",
+			"description": "12/6/2007",
+			"filename": "joyce",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/joyce.htm"
+		},
+		{
+			"title": "Q90 - From LK",
+			"description": "12/10/2007",
+			"filename": "lk",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/lk.htm"
+		},
+		{
+			"title": "Q91 - From D",
+			"description": "12/12/2007",
+			"filename": "d",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/d.htm"
+		},
+		{
+			"title": "Q92 - From Daniel",
+			"description": "12/17/2007",
+			"filename": "daniel",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/daniel.htm"
+		},
+		{
+			"title": "Q93 - From Mark",
+			"description": "12/22/2007",
+			"filename": "mark",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/mark.htm"
+		},
+		{
+			"title": "Q94 - From Fatos",
+			"description": "12/22/2007",
+			"filename": "fatos",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/fatos.htm"
+		},
+		{
+			"title": "Q95 - From Dr. Lopez",
+			"description": "12/23/2007",
+			"filename": "lopez",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/lopez.htm"
+		},
+		{
+			"title": "Q96 - From Bap",
+			"description": "1/4/2008",
+			"filename": "bap",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/bap.htm"
+		},
+		{
+			"title": "Q97 - From Christophe",
+			"description": "1/5/2008",
+			"filename": "christophe",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/christophe.htm"
+		},
+		{
+			"title": "Q98 - From David",
+			"description": "1/6/2008",
+			"filename": "david",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/david.htm"
+		},
+		{
+			"title": "Q99 - From Nataliya",
+			"description": "1/9/2008",
+			"filename": "nataliya",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/nataliya.htm"
+		},
+		{
+			"title": "Q100 - From Julia",
+			"description": "1/8/2008",
+			"filename": "julia",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/julia.htm"
+		}
+	],
+	"101-120": [
+		{
+			"title": "Q101 - From Joyce Wright",
+			"description": "1/15/2008",
+			"filename": "joyce_wright",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/joyce_wright.htm"
+		},
+		{
+			"title": "Q102 - From Schibber",
+			"description": "1/18/2008",
+			"filename": "schibber",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/schibber.htm"
+		},
+		{
+			"title": "Q103 - From R E Greene",
+			"description": "1/21/2008",
+			"filename": "r_e_greene",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/r_e_greene.htm"
+		},
+		{
+			"title": "Q104 - From Hubble",
+			"description": "1/24/2008",
+			"filename": "hubble",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/hubble.htm"
+		},
+		{
+			"title": "Q105 - From Pankaj Mittal",
+			"description": "1/28/2008",
+			"filename": "pankaj_mittal",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/pankaj_mittal.htm"
+		},
+		{
+			"title": "Q106 - From Paul Klein",
+			"description": "2/10/2008",
+			"filename": "paul_klein",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/paul_klein.htm"
+		},
+		{
+			"title": "Q107 - From Prasanta Nayak",
+			"description": "2/12/2008",
+			"filename": "prasanta_nayak",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/prasanta_nayak.htm"
+		},
+		{
+			"title": "Q108 - From Nick Jimison",
+			"description": "2/13/2008",
+			"filename": "nick_jimison",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/nick_jimison.htm"
+		},
+		{
+			"title": "Q109 - From Alex",
+			"description": "2/14/2008",
+			"filename": "alex",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/alex.htm"
+		},
+		{
+			"title": "Q110 - From Mahiralok",
+			"description": "2/16/2008",
+			"filename": "mahiralok",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/mahiralok.htm"
+		},
+		{
+			"title": "Q111 - From Alvyjane",
+			"description": "2/18/2008",
+			"filename": "alvyjane",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/alvyjane.htm"
+		},
+		{
+			"title": "Q112 - From Michael",
+			"description": "2/21/2008",
+			"filename": "michaeld5",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/.htm"
+		},
+		{
+			"title": "Q113 - From Mark",
+			"description": "2/21/2008",
+			"filename": "markd6",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/markd6.htm"
+		},
+		{
+			"title": "Q114 - From Helen",
+			"description": "2/22/2008",
+			"filename": "helen",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/helen.htm"
+		},
+		{
+			"title": "Q115 - From Mav",
+			"description": "2/27/2008",
+			"filename": "mav",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/mav.htm"
+		},
+		{
+			"title": "Q116 - From Ganesan",
+			"description": "3/11/2008",
+			"filename": "ganesan",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/ganesan.htm"
+		},
+		{
+			"title": "Q117 - From Andy",
+			"description": "3/16/2008",
+			"filename": "andy",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/andy.htm"
+		},
+		{
+			"title": "Q118 - From Gayatri",
+			"description": "3/26/2008",
+			"filename": "gayatri",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/gayatri.htm"
+		},
+		{
+			"title": "Q119 - From Alex",
+			"description": "3/26/2008",
+			"filename": "alex2",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/alex2.htm"
+		},
+		{
+			"title": "Q120 - From Eric",
+			"description": "8/7/2008",
+			"filename": "eric",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/eric.htm"
+		}
+	],
+	"121-138": [
+		{
+			"title": "Q121 - From Cat",
+			"description": "4/10/2008",
+			"filename": "cat",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/cat.htm"
+		},
+		{
+			"title": "Q122 - From Randy",
+			"description": "4/24/2008",
+			"filename": "randy",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/randy.htm"
+		},
+		{
+			"title": "Q123 - From Majid",
+			"description": "4/20/2008",
+			"filename": "majid",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/majid.htm"
+		},
+		{
+			"title": "Q124 - From Mike",
+			"description": "4/20/2008",
+			"filename": "mike",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/mike.htm"
+		},
+		{
+			"title": "Q125 - From Matthew",
+			"description": "4/15/2008",
+			"filename": "matthew",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/matthew.htm"
+		},
+		{
+			"title": "Q126 - From Eric",
+			"description": "4/23/2008",
+			"filename": "eric2",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/eric2.htm"
+		},
+		{
+			"title": "Q127 - From Tarsem",
+			"description": "4/24/2008",
+			"filename": "tarsem",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/tarsem.htm"
+		},
+		{
+			"title": "Q128 - From Simon",
+			"description": "4/25/2008",
+			"filename": "simonea",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/simonea.htm"
+		},
+		{
+			"title": "Q129 - From Jamie",
+			"description": "5/6/2008",
+			"filename": "jamie",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/jamie.htm"
+		},
+		{
+			"title": "Q130 - From Chip",
+			"description": "5/19/2008",
+			"filename": "chip",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/chip.htm"
+		},
+		{
+			"title": "Q131 - From Joe",
+			"description": "5/21/2008",
+			"filename": "joeeb",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/joeeb.htm"
+		},
+		{
+			"title": "Q132 - From Ian",
+			"description": "5/22/2008",
+			"filename": "ian",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/.htm"
+		},
+		{
+			"title": "Q133 - From Balaji",
+			"description": "6/3/2008",
+			"filename": "balaji",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/balaji.htm"
+		},
+		{
+			"title": "Q134 - From Upasna",
+			"description": "6/4/2008",
+			"filename": "upasna",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/upasna.htm"
+		},
+		{
+			"title": "Q135 - From Andrew",
+			"description": "6/10/2008",
+			"filename": "andrewb",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/andrewb.htm"
+		},
+		{
+			"title": "Q136 - From Erki",
+			"description": "6/16/2008",
+			"filename": "erki",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/erki.htm"
+		},
+		{
+			"title": "Q137 - From Jason N",
+			"description": "6/17/2008",
+			"filename": "jasonn",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/jasonn.htm"
+		},
+		{
+			"title": "Q138 - From Arvind",
+			"description": "7/18/2008",
+			"filename": "arvind",
+			"sourceURL": "http://www.members.tripod.com/tathagata2000/arvind.htm"
+		}
+	],
+	"articles": [
+		{
+			"title": "What is Karma ?",
+			"description": "Cause and Effect of Karma",
+			"filename": "karma"
+		},
+		{
+			"title": "What is Destiny ?",
+			"description": "How Can We Change Our Destiny?",
+			"filename": "destiny"
+		},
+		{
+			"title": "What is Life ?",
+			"description": "The Process from Birth until Death",
+			"filename": "life"
+		},
+		{
+			"title": "Happiness and Peace",
+			"description": "How can we get Happiness and Peace?",
+			"filename": "happiness_and_peace"
+		},
+		{
+			"title": "Messages from Tathagata",
+			"description": "The End of the World / Changing Period / Eschatology",
+			"filename": "messages"
+		},
+		{
+			"title": "Teaching of Tathagata",
+			"description": "The Truth",
+			"filename": "teaching"
+		}
+	],
+	"about": [
+		{
+			"title": "The Life of Tathagata",
+			"description": "Appearance of the Enlightened Being",
+			"filename": "appearance"
+		},
+		{
+			"title": "Tathagata's Struggle",
+			"description": "Ordeals Through Enlightenment",
+			"filename": "struggle"
+		},
+		{
+			"title": "Enlightenment of Tathagata",
+			"description": "Tathagata's Love for Mankind",
+			"filename": "love"
+		}
+	],
+	"publications": [
+		{
+			"title": "Traveler",
+			"description": "Poetry",
+			"list": "traveler"
+		},
+		{
+			"title": "Enlightenment",
+			"description": "Tathagata's book Enlightenment",
+			"list": "enlightenment"
+		},
+		{
+			"title": "Voices of Nature",
+			"description": "Published in Nature's Teaching Magazine",
+			"list": "voices"
+		},
+		{
+			"title": "Lonely Struggle",
+			"description": "not yet translated",
+			"filename": null
+		}
+	],
+	"traveler": [
+		{
+			"title": "Ch 1. Dearest wish",
+			"description": "There was no place to dedicate conscience and courage again/In front of the man who has lived in the suffering./The solitary song of the man who had to walk along a lonely way,/Because of love toward the fatherland, has passed by burning young heart.",
+			"filename": "traveler_1"
+		},
+		{
+			"title": "Ch 2. Forgotten time",
+			"description": "Where should I meet the true world./I did not have the place to ask it./I would rather have wished/The dark time was dream.",
+			"filename": "traveler_2"
+		},
+		{
+			"title": "Ch 3. Story of Yeon-hwa island",
+			"description": "An innocent man had to see a sin/Was heaven's meaning./Because there was no place to hide his mind,/He who had to confine himself to a solitary island/Lamented as following.",
+			"filename": "traveler_3"
+		},
+		{
+			"title": "Ch 4. Sound of heaven",
+			"description": "New world appeared in my calm mind./I saw myself/Who did not have anguish nor fantasy./THe sound of heaven was heard/in my lonely heart.",
+			"filename": "traveler_4"
+		},
+		{
+			"title": "Ch 5. Traveler",
+			"description": "Heaven made me burdened./Nobody could bear that burden instead of me./So I had to wander about the world again.",
+			"filename": "traveler_5"
+		},
+		{
+			"title": "Ch 6. A grain of seed",
+			"description": "Soyeon./This is the first name/That I gave for the world./After having given this name,/I told her all my secrets.",
+			"filename": "traveler_6"
+		},
+		{
+			"title": "Ch 7. Lamentation",
+			"description": "This is the song/That I used to sing,/Having seen myself who has no place to go and to stay./Heaven, let me find a rightous man today./And let the new world be theirs by them.",
+			"filename": "traveler_7"
+		},
+		{
+			"title": "Ch 8. Law of cause and effect",
+			"description": "The law of cause and effect is the eternal promise that exists in our world./We call this promise truth./I will tell things of the world by this law.",
+			"filename": "traveler_8"
+		},
+		{
+			"title": "Ch 9. Questions and answers",
+			"description": "There is something we can not believe in the world./However, as time goes by, people come to know such a thing./And then it is clear that truth and falsehood can be proved in a fact.",
+			"filename": "traveler_9"
+		},
+		{
+			"title": "Ch 10. History of tathagata",
+			"description": "Truth exists forever./If apples do not look like apples,/If apples do not have the taste of those,/We can not call them apples.",
+			"filename": "traveler_10"
+		}
+	],
+	"enlightenment": [
+		{
+			"title": "Introduction to Enlightenment",
+			"description": "",
+			"filename": "intro_enlightenment"
+		},
+		{
+			"title": "Five Doubts",
+			"description": "",
+			"filename": "five_doubts"
+		},
+		{
+			"title": "Questions and Answers",
+			"description": "",
+			"filename": "enlightenment_qa"
+		},
+		{
+			"title": "Main Contents of the Lectures",
+			"description": "",
+			"filename": "subjects"
+		}
+	],
+	"voices": [
+		{
+			"title": "Voices of Nature Ch. 1",
+			"description": "",
+			"filename": "voices1",
+			"sourceURL": "http://natureteaching.com/teaching/1ho/voice1.htm"
+		},
+		{
+			"title": "Voices of Nature Ch. 2",
+			"description": "",
+			"filename": "voices2",
+			"sourceURL": "http://natureteaching.com/teaching/2ho/voice2.htm"
+		},
+		{
+			"title": "Voices of Nature Ch. 3",
+			"description": "",
+			"filename": "voices3",
+			"sourceURL": "http://natureteaching.com/teaching/3ho/voice3.htm"
+		},
+		{
+			"title": "Voices of Nature Ch. 4",
+			"description": "",
+			"filename": "voices4",
+			"sourceURL": "http://natureteaching.com/teaching/4ho/voice4.htm"
+		},
+		{
+			"title": "Voices of Nature Ch. 5",
+			"description": "",
+			"filename": "voices5",
+			"sourceURL": "http://natureteaching.com/teaching/5ho/voice5.htm"
+		},
+		{
+			"title": "Voices of Nature Ch. 6",
+			"description": "",
+			"filename": "voices6",
+			"sourceURL": "http://natureteaching.com/teaching/6ho/voice6.htm"
+		},
+		{
+			"title": "Voices of Nature Ch. 7",
+			"description": "",
+			"filename": "voices7",
+			"sourceURL": "http://natureteaching.com/teaching/7ho/voice7.htm"
+		},
+		{
+			"title": "Voices of Nature Ch. 8",
+			"description": "",
+			"filename": "voices8",
+			"sourceURL": "http://natureteaching.com/teaching/8ho/voice8.htm"
+		},
+		{
+			"title": "Voices of Nature Ch. 9",
+			"description": "",
+			"filename": "voices9",
+			"sourceURL": "http://natureteaching.com/teaching/9ho/voice9.htm"
+		}
+	],
+	"lectures": [
+		{
+			"title": "Places of Lecture",
+			"description": "",
+			"filename": "places"
+		},
+		{
+			"title": "Main Subjects of the Lectures",
+			"description": "",
+			"filename": "subjects"
+		},
+		{
+			"title": "The Way of Enlightenment",
+			"description": "",
+			"filename": "way_of_enlightenment"
+		},
+		{
+			"title": "The World of Life",
+			"description": "",
+			"filename": "world_of_life"
+		},
+		{
+			"title": "Human Beings and God",
+			"description": "",
+			"filename": "human_being_and_god"
+		},
+		{
+			"title": "The Earth Seen Through Science",
+			"description": "",
+			"filename": "earth"
+		}
+	],
+	"travel": [
+		{
+			"title": "People met in Nairobi",
+			"description": "Nairobi, Kenya",
+			"filename": "nairobi"
+		},
+		{
+			"title": "Pune University",
+			"description": "Pune, Maharashtra, India",
+			"filename": "pune"
+		},
+		{
+			"title": "Travel to Bodh Gaya",
+			"description": "Bodh Gaya, Bihar, India",
+			"filename": "bodh_gaya"
+		},
+		{
+			"title": "Indian Institute of Technology",
+			"description": "New Delhi, India",
+			"filename": "iit"
+		},
+		{
+			"title": "Leicester Square",
+			"description": "London, UK",
+			"filename": "leicester_square"
+		}
+	],
+	"conversations": [
+		{
+			"title": "Seongbon, the First King’s teacher in Thailand",
+			"description": "Thailand",
+			"filename": "convo_1"
+		},
+		{
+			"title": "With contemporary leader, Buddhadhasa of Thailand Buddhism",
+			"description": "Thailand",
+			"filename": "convo_2"
+		},
+		{
+			"title": "With contemporary Indian leader, J. P. Vaswani",
+			"description": "India",
+			"filename": "convo_3"
+		},
+		{
+			"title": "Agwani (The contemporary president of Nehru university)",
+			"description": "India",
+			"filename": "convo_4"
+		},
+		{
+			"title": "The words with leader of Tibet Buddhism, Tenshav Rinpoche",
+			"description": " ",
+			"filename": "convo_5"
+		},
+		{
+			"title": "Meeting with Mr. Gupte, the contemporary President of Buna University in Buna",
+			"description": "India",
+			"filename": "convo_6"
+		},
+		{
+			"title": "Meeting with Hindu Shankaracharya in Puna",
+			"description": "India",
+			"filename": "convo_7"
+		},
+		{
+			"title": "Meeting with professor Wanzala, the head of department in humanity college at the University of Nairobi, Kenya",
+			"description": "Kenya",
+			"filename": "convo_8"
+		},
+		{
+			"title": "Dialog with Philosopher Boyd in Budapest, Hungary",
+			"description": "Hungary",
+			"filename": "convo_9"
+		},
+		{
+			"title": "Dialog with doctor Giryeo Jang in Busan",
+			"description": "South Korea",
+			"filename": "convo_10"
+		},
+		{
+			"title": "Samwon Rinpoche, The president of University of Tibetan Buddhism, Saranad",
+			"description": " ",
+			"filename": "convo_11"
+		},
+		{
+			"title": "Open lecture at IIT, India",
+			"description": "India",
+			"filename": "convo_12"
+		},
+		{
+			"title": "At Gandhi University, India",
+			"description": "India",
+			"filename": "convo_13"
+		},
+		{
+			"title": "At University of Delhi, India",
+			"description": "India",
+			"filename": "convo_14"
+		},
+		{
+			"title": "Hindu University, Banarashi India",
+			"description": "India",
+			"filename": "convo_15"
+		},
+		{
+			"title": "Oxford University, U.K",
+			"description": "U.K",
+			"filename": "convo_16"
+		},
+		{
+			"title": "Imperial college, University of London, U.K",
+			"description": "U.K",
+			"filename": "convo_17"
+		}
+	],
+	"multimedia": [
+		{
+			"title": "Meeting with Astronomy Professor Arlin Crotts",
+			"description": "Columbia University, New York. (audio)",
+			"filename": "08_033070122_Columbia_Astronomy_prof.ArlinCrotts",
+			"sourceURL": null,
+			"media_file_ext": "mp3"
+		},
+		{
+			"title": "Meeting with Philosophy Chairman Michael Della Rocca",
+			"description": "Yale University, New Haven. (audio)",
+			"filename": "20_068070205_Yale_Philosophy_Chairprof.MichaelDellaRocca",
+			"sourceURL": null,
+			"media_file_ext": "mp3"
+		},
+		{
+			"title": "Meeting in Malaysia",
+			"description": "August 13, 2008 (audio)",
+			"filename": "20080813_malaysia",
+			"sourceURL": null,
+			"media_file_ext": "mp3"
+		}
+	],
+	"links": [
+		{
+			"title": "members.tripod.com/tathagata2000",
+			"description": "Website with Tathagata's teachings in English, made by Paul Iddon in London.",
+			"filename": "http://members.tripod.com/tathagata2000"
+		},
+		{
+			"title": "www.lifeguide.or.kr",
+			"description": "Tathagata in Korea.",
+			"filename": "http://www.lifeguide.or.kr"
+		},
+		{
+			"title": "www.natureteaching.com",
+			"description": "A magazine published by members in Korea.",
+			"filename": "http://www.natureteaching.com"
+		},
+		{
+			"title": "www.snasc.com",
+			"description": "Founded by Mr. Samhan Lee in 1986. The purpose of its foundation is to conduct research on problems of mankind and the solutions of problems in society.",
+			"filename": "http://www.snasc.com"
+		},
+		{
+			"title": "silsang.co.kr/",
+			"description": "",
+			"filename": "http://silsang.co.kr/"
+		},
+		{
+			"title": "www.naturalscience.biz/",
+			"description": "",
+			"filename": "http://www.naturalscience.biz/"
+		},
+		{
+			"title": "www.tathagata.info/",
+			"description": "",
+			"filename": "http://www.tathagata.info/"
+		},
+		{
+			"title": "tathagatablog.wordpress.com/",
+			"description": "Blog about Tathagata and his teachings with translations by Craig.",
+			"filename": "https://tathagatablog.wordpress.com/"
+		}
+	]
+}

@@ -261,6 +261,7 @@
 		9F2516FD21D9CC370045205E /* ENNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2516FC21D9CC370045205E /* ENNavigation.m */; };
 		9F4B8FD221D9D8490005CAA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B8FD121D9D8490005CAA4 /* LaunchScreen.storyboard */; };
 		9F6B795821E30CB900514579 /* ScrollingGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B795721E30CB900514579 /* ScrollingGalleryViewController.swift */; };
+		9F6D2FDC21EBE0F600BDFAEE /* directory.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F6D2FDB21EBE0F600BDFAEE /* directory.json */; };
 		9FDB3F5321E2A8D8000D7AAA /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB3F5221E2A8D8000D7AAA /* SnapshotHelper.swift */; };
 		9FDB3F5521E2ADAA000D7AAA /* EnlightenmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB3F5421E2ADAA000D7AAA /* EnlightenmentUITests.swift */; };
 		9FDB3F5921E2B91B000D7AAA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDB3F5721E2B91B000D7AAA /* AVFoundation.framework */; };
@@ -552,6 +553,7 @@
 		9F2516FC21D9CC370045205E /* ENNavigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENNavigation.m; sourceTree = "<group>"; };
 		9F4B8FD121D9D8490005CAA4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6B795721E30CB900514579 /* ScrollingGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingGalleryViewController.swift; sourceTree = "<group>"; };
+		9F6D2FDB21EBE0F600BDFAEE /* directory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = directory.json; sourceTree = "<group>"; };
 		9FDB3F4721E2A832000D7AAA /* EnlightenmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnlightenmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDB3F4B21E2A832000D7AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FDB3F5121E2A8D7000D7AAA /* EnlightenmentUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnlightenmentUITests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -669,6 +671,7 @@
 		8CD1BD711B9F69680029DACB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9F6D2FDB21EBE0F600BDFAEE /* directory.json */,
 				8CD1BD761B9F69680029DACB /* Gallery */,
 				8CD1BD8E1B9F69680029DACB /* Icons */,
 				8CD1BD921B9F69680029DACB /* Multimedia */,
@@ -1325,6 +1328,7 @@
 				8CD1BEB01B9F69680029DACB /* convo_17.html in Resources */,
 				8CD1BE921B9F69680029DACB /* tathagata_small.jpg in Resources */,
 				8CD1BF431B9F69690029DACB /* rs_champagne.html in Resources */,
+				9F6D2FDC21EBE0F600BDFAEE /* directory.json in Resources */,
 				8CD1BF201B9F69690029DACB /* mahiralok.html in Resources */,
 				8CD1BEEB1B9F69680029DACB /* cindy.html in Resources */,
 				8CD1BF221B9F69690029DACB /* marcello.html in Resources */,

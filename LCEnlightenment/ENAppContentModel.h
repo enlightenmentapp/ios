@@ -12,21 +12,8 @@
 
 @interface ENAppContentModel : NSObject
 
-@property (strong, nonatomic) ENList *tableOfContentsENList;
-
-- (void)addENDocumentWithTitle:(NSString *)title
-                 description:(id)description
-                    filename:(id)filename
-                   sourceURL:(id)sourceURL
-                      parent:(id)parent
-                       index:(int)index;
-
-
-- (void)addENDocumentWithTitle:(NSString *)title
-                 description:(id)description
-                    filename:(id)filename
-                      parent:(id)parent
-                       index:(int)index;
+@property (nonatomic, strong) ENList *root;
+@property (nonatomic, strong) ENList *tableOfContentsENList;
 
 // Searching content
 - (NSArray *)documentsMatchingItems:(NSArray *)searchItems; // array of strings
